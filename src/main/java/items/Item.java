@@ -10,4 +10,16 @@ public abstract class Item {
         this.format = format;
         this.year = year;
     }
+
+    public String getName() {
+        return name;
+    }
+
+    public String getFormat() {
+        return format;
+    }
+
+    public int getYear() {
+        return year;
+    }
 }
