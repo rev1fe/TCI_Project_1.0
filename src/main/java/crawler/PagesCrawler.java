@@ -15,18 +15,17 @@ import java.util.LinkedList;
 import java.util.List;
 import java.util.Queue;
 
-public class PagesCrawler implements ICrawler {
+public class PagesCrawler {
 
     private Queue<String> queue;
     private Queue<String> itemsQueue;
 
-    public PagesCrawler() {
+    PagesCrawler() {
         queue = new LinkedList<String>();
         itemsQueue = new LinkedList<>();
     }
 
-    @Override
-    public List<String> getCategoryLinks(String baseUrl) throws IOException {
+    List<String> getCategoryLinks(String baseUrl) throws IOException {
         List<String> results = new ArrayList<>();
 
         Document doc = Jsoup.connect(baseUrl).get();
@@ -40,11 +39,7 @@ public class PagesCrawler implements ICrawler {
         return results;
     }
 
-    /*
-    * Returns a list of links of items of a category
-    * */
-    @Override
-    public List<String> getCategoryItemsUrls(String categoryUrl) throws IOException {
+    List<String> getCategoryItemsUrls(String categoryUrl) throws IOException {
         List<String> results = new ArrayList<>();
 
         Document doc = Jsoup.connect(categoryUrl).get();
@@ -58,7 +53,6 @@ public class PagesCrawler implements ICrawler {
         return results;
     }
 
-    @Override
     public String getSpecificItem(String baseUrl, String name) {
         StringBuilder toBeSerialized = new StringBuilder();
 

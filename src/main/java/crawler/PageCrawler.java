@@ -11,7 +11,7 @@ import java.util.Queue;
 
 public class PageCrawler {
 
-    public String getItemDate(String url) throws IOException {
+    public String getItemData(String url) throws IOException {
         Document doc = Jsoup.connect(url).get();
         StringBuilder result = new StringBuilder();
 
