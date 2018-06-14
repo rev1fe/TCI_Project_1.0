@@ -2,6 +2,7 @@ package crawler;
 
 import interfaces.ICrawler;
 import managers.DataItem;
+import managers.Statistics;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
@@ -97,7 +98,10 @@ public class Crawler implements ICrawler {
 
         long totalTime = System.currentTimeMillis() - startTime;
 
+        Statistics statistics = new Statistics();
+
         // Send data to serializer
+        parseAllItems(results);
 
         return results;
     }
@@ -184,5 +188,13 @@ public class Crawler implements ICrawler {
     @Override
     public DataItem getStatisticsInformation(int id) {
         return null;
+    }
+
+    private String parseAllItems(List<String> allItems) {
+        return "";
+    }
+
+    private String parseItem(String item) {
+        return "";
     }
 }
