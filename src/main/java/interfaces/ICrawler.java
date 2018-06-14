@@ -2,10 +2,11 @@ package interfaces;
 
 import managers.DataItem;
 
+import java.io.IOException;
 import java.util.List;
 
 public interface ICrawler {
-    List<String> getAllItems();
-    String getSpecificItem(String name);
-    DataItem getStatisticsInformation(int id);
+    List<String> getCategoryLinks(String baseUrl) throws IOException;
+    List<String> getCategoryItemsUrls(String categoryUrl) throws IOException;
+    String getSpecificItem(String baseUrl, String name) throws IOException;
 }
