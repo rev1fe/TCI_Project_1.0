@@ -1,12 +1,11 @@
 package interfaces;
 
-import items.Item;
 import managers.DataItem;
 
-import java.util.ArrayList;
+import java.util.List;
 
 public interface ICrawler {
-    ArrayList<Item> getAllItems();
-    Item getSpecificItem(String name);
+    List<String> getAllItems();
+    String getSpecificItem(String name);
     DataItem getStatisticsInformation(int id);
 }
