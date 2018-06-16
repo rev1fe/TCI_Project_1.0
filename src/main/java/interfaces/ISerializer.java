@@ -4,9 +4,10 @@ import items.Item;
 import managers.DataItem;
 
 import java.util.ArrayList;
+import java.util.List;
 
 public interface ISerializer {
-    String listOfItemToJson(ArrayList<Item> items);
+    String listOfItemToJson(List<String> items);
     String itemToJson(Item item);
     String statisticsToJson(DataItem dataItem);
 }

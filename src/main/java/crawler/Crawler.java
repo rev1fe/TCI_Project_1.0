@@ -8,12 +8,12 @@ import java.util.ArrayList;
 
 public class Crawler implements ICrawler {
     @Override
-    public ArrayList<Item> getAllItems() {
+    public ArrayList<String> getAllItems() {
         return null;
     }
 
     @Override
-    public Item getSpecificItem(String name) {
+    public String getSpecificItem(String name) {
         return null;
     }
 

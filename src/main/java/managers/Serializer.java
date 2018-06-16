@@ -4,10 +4,12 @@ import interfaces.ISerializer;
 import items.Item;
 
 import java.util.ArrayList;
+import java.util.List;
 
 public class Serializer implements ISerializer {
+
     @Override
-    public String listOfItemToJson(ArrayList<Item> items) {
+    public String listOfItemToJson(List<String> items) {
         return null;
     }
 
