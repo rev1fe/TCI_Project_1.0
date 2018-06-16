@@ -2,20 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="064dce74-2663-484b-af62-7115766b64fa" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/crawler/CrawlerTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/classes/crawler/Crawler.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/crawler/Crawler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/crawler/PageCrawler.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/crawler/PageCrawler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/crawler/PagesCrawler.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/crawler/PagesCrawler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/interfaces/ICrawler.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/interfaces/ICrawler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/classes/crawler/PageCrawlerTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/classes/crawler/PagesCrawlerTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/classes/crawler/CrawlerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/crawler/CrawlerTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/crawler/Crawler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/crawler/Crawler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/crawler/PageCrawler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/crawler/PageCrawler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/crawler/PagesCrawler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/crawler/PagesCrawler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/interfaces/ICrawler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/interfaces/ICrawler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/crawler/PageCrawlerTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/crawler/PagesCrawlerTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/crawler/CrawlerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/crawler/CrawlerTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -33,33 +24,12 @@
     </projectState>
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="ICrawler.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/interfaces/ICrawler.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="9" column="11" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Crawler.java" pinned="false" current-in-tab="false">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="Crawler.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/crawler/Crawler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="25" column="24" selection-start-line="25" selection-start-column="24" selection-end-line="25" selection-end-column="24" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CrawlerTest.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/crawler/CrawlerTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="12" column="17" lean-forward="true" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+            <state relative-caret-position="250">
+              <caret line="27" selection-start-line="27" selection-end-line="27" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -270,9 +240,9 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$" value="6115886829000" />
+        <entry key="$PROJECT_DIR$" value="6115886848000" />
         <entry key="$PROJECT_DIR$/.gradle" value="0" />
-        <entry key="$PROJECT_DIR$/build.gradle" value="238630754" />
+        <entry key="$PROJECT_DIR$/build.gradle" value="1481653958" />
         <entry key="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" value="566444372" />
         <entry key="$PROJECT_DIR$/settings.gradle" value="1689219570" />
       </map>
@@ -492,7 +462,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -555,13 +524,21 @@
               <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="TCI_Project_1.0" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TCI_Project_1.0" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="crawler" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
-      <pane id="Scratches" />
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -737,19 +714,11 @@
       <updated>1528955493020</updated>
       <workItem from="1528955507485" duration="3088000" />
       <workItem from="1528959341061" duration="340000" />
+      <workItem from="1529186291155" duration="246000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="CrawlerTest_testConnectionIsSuccessful - 2018.06.14 at 14h 21m 49s.xml">
-      <configuration name="CrawlerTest.testConnectionIsSuccessful" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CrawlerTest_testConnectionIsSuccessful - 2018.06.14 at 14h 22m 08s.xml">
-      <configuration name="CrawlerTest.testConnectionIsSuccessful" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PagesCrawlerTest_testConnectionIsSuccessful - 2018.06.14 at 16h 19m 47s.xml">
-      <configuration name="PagesCrawlerTest.testConnectionIsSuccessful" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="PagesCrawlerTest_testConnectionIsSuccessful - 2018.06.14 at 16h 31m 05s.xml">
       <configuration name="PagesCrawlerTest.testConnectionIsSuccessful" configurationId="JUnit" />
     </history-entry>
@@ -771,75 +740,56 @@
     <history-entry file="CrawlerTest_test - 2018.06.14 at 17h 30m 10s.xml">
       <configuration name="CrawlerTest.test" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="CrawlerTest_test - 2018.06.14 at 17h 30m 22s.xml">
+      <configuration name="CrawlerTest.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CrawlerTest_test - 2018.06.14 at 17h 50m 18s.xml">
+      <configuration name="CrawlerTest.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CrawlerTest_test - 2018.06.14 at 17h 51m 47s.xml">
+      <configuration name="CrawlerTest.test" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13159000" />
+    <option name="totallyTimeSpent" value="14394000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="true" />
+    <frame x="0" y="23" width="1440" height="877" extended-state="6" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="right" id="CDI" order="3" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info anchor="bottom" id="Build" order="7" weight="0.6690909" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.6484848" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="bottom" id="Java Enterprise" order="7" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.5830303" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.17173913" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.3272727" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.29613733" />
-      <window_info anchor="right" id="Bean Validation" order="3" />
-      <window_info id="Web" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="right" id="Gradle" order="3" />
-      <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16257995" />
-      <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="Java Enterprise" order="7" />
-      <window_info anchor="bottom" id="Messages" order="7" />
-      <window_info id="Structure" order="1" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Palette&#9;" order="3" />
-      <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info id="Web" order="2" side_tool="true" />
-      <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info id="Image Layers" order="2" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32820514" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16452074" />
       <window_info anchor="right" id="Bean Validation" order="3" />
-      <window_info anchor="right" id="Database" order="3" />
-      <window_info id="Capture Tool" order="2" />
-      <window_info anchor="bottom" id="Version Control" order="7" weight="0.17173913" />
-      <window_info anchor="right" id="CDI" order="3" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info id="UI Designer" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Build" order="7" weight="0.0" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32934782" />
+      <window_info id="Web" order="2" side_tool="true" />
       <window_info anchor="right" id="Gradle" order="3" />
+      <window_info anchor="right" id="Theme Preview" order="3" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="7" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info id="Designer" order="2" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Build" order="7" weight="0.0" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -849,6 +799,16 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/crawler/Crawler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/BookTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="525">
@@ -1184,13 +1144,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/crawler/PageCrawlerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="29" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/crawler/PageCrawlerTest.java" />
     <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
@@ -1198,13 +1152,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/crawler/PagesCrawlerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="25" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/crawler/PagesCrawlerTest.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/interfaces/ISerializer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -1226,16 +1174,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/crawler/PagesCrawler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-581">
-          <caret line="41" column="17" selection-start-line="41" selection-start-column="17" selection-end-line="41" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/crawler/PageCrawler.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
@@ -1246,10 +1184,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/crawler/Crawler.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/crawler/PagesCrawler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="25" column="24" selection-start-line="25" selection-start-column="24" selection-end-line="25" selection-end-column="24" />
+        <state relative-caret-position="318">
+          <caret line="55" column="18" selection-start-line="55" selection-start-column="18" selection-end-line="55" selection-end-column="18" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1258,8 +1196,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/crawler/CrawlerTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="12" column="17" lean-forward="true" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+        <state relative-caret-position="30">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/crawler/Crawler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

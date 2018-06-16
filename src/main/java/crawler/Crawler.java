@@ -15,11 +15,15 @@ public class Crawler implements ICrawler {
     private int searchId;
     private int searchDepth;
 
+    public List<String> allItems;
+
     public Crawler(String baseUrl) {
         this.baseUrl = baseUrl;
 
         this.pagesCrawler = new PagesCrawler();
         this.pageCrawler = new PageCrawler();
+
+        allItems = new ArrayList<>();
     }
 
     @Override
@@ -30,8 +34,6 @@ public class Crawler implements ICrawler {
         // Get categories links
         List<String> categories = pagesCrawler.getCategoryLinks(baseUrl);
 
-        List<String> items = new ArrayList<>();
-
         // Loop through categories
         for(String categoryUrl : categories) {
             // Get category items urls
@@ -39,10 +41,10 @@ public class Crawler implements ICrawler {
             // Loop through category items urls
             for (String categoryItemUrl : categoryItems) {
                 // Add category item to list
-                items.add(pageCrawler.getItemData(categoryItemUrl));
+                allItems.add(pageCrawler.getItemData(categoryItemUrl));
             }
         }
-        return items;
+        return allItems;
     }
 
     @Override
