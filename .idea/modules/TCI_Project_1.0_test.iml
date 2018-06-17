@@ -22,6 +22,7 @@
     <orderEntry type="library" name="Gradle: net.bytebuddy:byte-buddy-agent:1.8.10" level="project" />
     <orderEntry type="library" name="Gradle: org.objenesis:objenesis:2.6" level="project" />
     <orderEntry type="library" name="aopalliance-repackaged-2.5.0-b42" level="project" />
+    <orderEntry type="module" module-name="CrawlerService" scope="TEST" />
   </component>
   <component name="TestModuleProperties" production-module="TCI_Project_1.0_main" />
 </module>

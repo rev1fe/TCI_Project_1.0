@@ -23,8 +23,7 @@
     </facet>
   </component>
   <component name="NewModuleRootManager">
-    <output url="file:///production/CrawlerService" />
-    <output-test url="file:///test/CrawlerService" />
+    <output url="file://$MODULE_DIR$/../out/production/CrawlerService" />
     <exclude-output />
     <content url="file://$MODULE_DIR$">
       <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
