@@ -27,12 +27,12 @@ public class CrawlerService {
     @Path("all")
     @Produces({MediaType.APPLICATION_JSON})
     public Response getAll(){
-        String gamesOfTheDay = serializer.listOfItemToJson(crawler.getAllItems());
+        String allItems = serializer.listOfItemToJson(crawler.getAllItems());
 
-            if ( gamesOfTheDay == null|| gamesOfTheDay.equals("")) {
+            if ( allItems == null|| allItems.equals("")) {
                 throw new InternalServerErrorException();
             } else {
-                return Response.ok(gamesOfTheDay).build();
+                return Response.ok(allItems).build();
             }
 
 
@@ -47,15 +47,31 @@ public class CrawlerService {
             throw new InternalServerErrorException();
         }
 
-        String gamesOfTheDay = serializer.itemToJson(crawler.getSpecificItem(keyword));
+        String specificIdem = serializer.itemToJson(crawler.getSpecificItem(keyword));
 
-        if ( gamesOfTheDay == null|| gamesOfTheDay.equals("")) {
+        if ( specificIdem == null|| specificIdem.equals("")) {
             throw new InternalServerErrorException();
         } else {
-            return Response.ok(gamesOfTheDay).build();
+            return Response.ok(specificIdem).build();
         }
     }
 
+    //Get Statistics
+    @GET
+    @Path("stats")
+    @Produces({MediaType.APPLICATION_JSON})
+    public Response getStatistics(@QueryParam("id") int id){
+        if ( id <= 0  ) {
+            throw new IllegalArgumentException();
+        }
 
+        String stats = serializer.statisticsToJson(crawler.getStatisticsInformation(id));
+
+        if ( stats == null|| stats.equals("")) {
+            throw new InternalServerErrorException();
+        } else {
+            return Response.ok(stats).build();
+        }
+    }
 
 }

@@ -21,6 +21,9 @@ public class CrawlerServiceTest {
     private static final String VALID_VALUE_STRING = "{ id = 1}";
     private static final String VALID_SEARCH_VALUE = "Book";
     private static final String VALID_SPECIFIC_RESULT = "{ name = Book}";
+    private static final int VALID_ID = 1;
+    private static final int INVALID_ID = -1;
+    private static final String VALID_STATISTICS_OUTPUT = "{ time = 123}";
 
     private static final Object[] getAllOutputs(){
         return $(
@@ -35,6 +38,14 @@ public class CrawlerServiceTest {
                 $("{ id = 1}", "{ name = book}"),
                 $("{ id = 2}","{ name = movie}"),
                 $("{ id = 3}","{ name = music}")
+        );
+    }
+
+    private static final Object[] getStatisticsParams(){
+        return $(
+                $(1, "{ time = 123}"),
+                $( 2,"{ time = 321}"),
+                $(3,"{ time = 231}")
         );
     }
 
@@ -114,7 +125,7 @@ public class CrawlerServiceTest {
      **/
 
     @Test
-    public void crawlerMethodForSingleItemIsCalledOnlyOnce(){
+    public void getStatisticsIsCalledOnlyOnce(){
         //arrange
         when(serializer.itemToJson(crawler.getSpecificItem(VALID_SEARCH_VALUE))).thenReturn(VALID_SPECIFIC_RESULT);
         //act
@@ -174,12 +185,12 @@ public class CrawlerServiceTest {
 
     @Test
     @Parameters(method = "getSpecificOutputs")
-    public void getSpecificReturnsProperResultWithParams(String indirectInput, String expectedOutput){
+    public void getSpecificReturnsProperResultWithParams(String input, String expectedOutput){
         //arrange
-        when(serializer.itemToJson(crawler.getSpecificItem(indirectInput))).thenReturn(expectedOutput);
+        when(serializer.itemToJson(crawler.getSpecificItem(input))).thenReturn(expectedOutput);
         Response result;
         //act
-        result = crawlerService.getItem(indirectInput);
+        result = crawlerService.getItem(input);
         //assert
         Assert.assertEquals("The expected result is:" + expectedOutput + " was: " + result.toString(), expectedOutput, result.getEntity() );
     }
@@ -188,6 +199,70 @@ public class CrawlerServiceTest {
      * Begining of Get Statistics tests
      */
 
+    @Test
+    public void crawlerMethodForSingleItemIsCalledOnlyOnce(){
+        //arrange
+        when(serializer.statisticsToJson(crawler.getStatisticsInformation(VALID_ID))).thenReturn(VALID_STATISTICS_OUTPUT);
+        //act
+        crawlerService.getStatistics(VALID_ID);
+        //assert
+        verify(crawler, times(2)).getStatisticsInformation(VALID_ID);//Times is to because of the when call
+    }
 
+    @Test
+    public void serializerGetStatsIsCalledOnce(){
+        //arrange
+        when(serializer.statisticsToJson(crawler.getStatisticsInformation(VALID_ID))).thenReturn(VALID_STATISTICS_OUTPUT);
+        //act
+        crawlerService.getStatistics(VALID_ID);
+        //assert
+        verify(serializer).statisticsToJson(crawler.getStatisticsInformation(VALID_ID));
+    }
+
+    @Test(expected = InternalServerErrorException.class)
+    public void getStatsThrowsExceptionIfResultIsNull(){
+        //arrange
+        when(serializer.statisticsToJson(crawler.getStatisticsInformation(VALID_ID))).thenReturn(NULL_VALUE__STRING);
+        //act
+        crawlerService.getStatistics(VALID_ID);
+    }
+
+    @Test(expected = InternalServerErrorException.class)
+    public void getStatsThrowsExceptionIfResultIsEmpty(){
+        //arrange
+        when(serializer.statisticsToJson(crawler.getStatisticsInformation(VALID_ID))).thenReturn(EMPTY_VALUE__STRING);
+        //act
+        crawlerService.getStatistics(VALID_ID);
+    }
+
+    @Test(expected = IllegalArgumentException.class)
+    public void getStatisticsThrowsIllegalArgumentException(){
+        //act
+        crawlerService.getStatistics(INVALID_ID);
+    }
+
+
+    @Test
+    public void getStatsReturnsProperResult(){
+        //arrange
+        when(serializer.statisticsToJson(crawler.getStatisticsInformation(VALID_ID))).thenReturn(VALID_STATISTICS_OUTPUT);
+        Response result;
+        //act
+        result = crawlerService.getStatistics(VALID_ID);
+        //assert
+        Assert.assertEquals("The expected result is:" + VALID_STATISTICS_OUTPUT + " was: " + result.toString(), VALID_STATISTICS_OUTPUT, result.getEntity() );
+    }
+
+    @Test
+    @Parameters(method = "getStatisticsParams")
+    public void getStatsReturnsProperResultWithParams(int input, String expectedOutput){
+        //arrange
+        when(serializer.statisticsToJson(crawler.getStatisticsInformation(input))).thenReturn(expectedOutput);
+        Response result;
+        //act
+        result = crawlerService.getStatistics(input);
+        //assert
+        Assert.assertEquals("The expected result is:" + expectedOutput + " was: " + result.toString(), expectedOutput, result.getEntity() );
+    }
 
 }
