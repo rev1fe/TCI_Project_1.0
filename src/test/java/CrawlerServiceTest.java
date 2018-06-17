@@ -19,12 +19,22 @@ public class CrawlerServiceTest {
     private static final String NULL_VALUE__STRING = null;
     private static final String EMPTY_VALUE__STRING = "";
     private static final String VALID_VALUE_STRING = "{ id = 1}";
+    private static final String VALID_SEARCH_VALUE = "Book";
+    private static final String VALID_SPECIFIC_RESULT = "{ name = Book}";
 
     private static final Object[] getAllOutputs(){
         return $(
                 $("{ id = 2}"),
                 $("{ id = 3}"),
                 $("{ id = 4}")
+        );
+    }
+
+    private static final Object[] getSpecificOutputs(){
+        return $(
+                $("{ id = 1}", "{ name = book}"),
+                $("{ id = 2}","{ name = movie}"),
+                $("{ id = 3}","{ name = music}")
         );
     }
 
@@ -98,5 +108,86 @@ public class CrawlerServiceTest {
         //assert
         Assert.assertEquals("The expected result is:" + expectedOutput + " was: " + result.toString(), expectedOutput, result.getEntity() );
     }
+
+    /**
+     * Begining of Tests for GetSpecific Item
+     **/
+
+    @Test
+    public void crawlerMethodForSingleItemIsCalledOnlyOnce(){
+        //arrange
+        when(serializer.itemToJson(crawler.getSpecificItem(VALID_SEARCH_VALUE))).thenReturn(VALID_SPECIFIC_RESULT);
+        //act
+        crawlerService.getItem(VALID_SEARCH_VALUE);
+        //assert
+        verify(crawler, times(2)).getSpecificItem(VALID_SEARCH_VALUE);//Times is to because of the when call
+    }
+
+    @Test
+    public void serializerGetSingleItemIsCalledOnce(){
+        //arrange
+        when(serializer.itemToJson(crawler.getSpecificItem(VALID_SEARCH_VALUE))).thenReturn(VALID_SPECIFIC_RESULT);
+        //act
+        crawlerService.getItem(VALID_SEARCH_VALUE);
+        //assert
+        verify(serializer).itemToJson(crawler.getSpecificItem(VALID_SEARCH_VALUE));
+    }
+
+    @Test(expected = InternalServerErrorException.class)
+    public void serviceGetSpecificItemThrowsExceptionWhenResultIsNull(){
+        //arrange
+        when(serializer.itemToJson(crawler.getSpecificItem(VALID_SEARCH_VALUE))).thenReturn(NULL_VALUE__STRING);
+        //act
+        crawlerService.getAll();
+    }
+
+    @Test(expected = InternalServerErrorException.class)
+    public void serviceGetSpecificItemThrowsExceptionWhenResultIsEmptyString(){
+        //arrange
+        when(serializer.itemToJson(crawler.getSpecificItem(VALID_SEARCH_VALUE))).thenReturn(EMPTY_VALUE__STRING);
+        //act
+        crawlerService.getAll();
+    }
+
+    @Test(expected = InternalServerErrorException.class)
+    public void serviceGetSingleItemThrowsExceptionWhenInputIsNull(){
+        //act
+        crawlerService.getItem(NULL_VALUE__STRING);
+    }
+
+    @Test(expected = InternalServerErrorException.class)
+    public void serviceGetSingleItemThrowsExceptionWhenInputIsEmpty(){
+        //act
+        crawlerService.getItem(EMPTY_VALUE__STRING);
+    }
+
+    @Test
+    public void getSpecificItemReturnsProperResult(){
+        //arrange
+        when(serializer.itemToJson(crawler.getSpecificItem(VALID_SEARCH_VALUE))).thenReturn(VALID_SPECIFIC_RESULT);
+        Response result;
+        //act
+        result = crawlerService.getItem(VALID_SEARCH_VALUE);
+        //assert
+        Assert.assertEquals("The expected result is:" + VALID_SPECIFIC_RESULT + " was: " + result.toString(), VALID_SPECIFIC_RESULT, result.getEntity() );
+    }
+
+    @Test
+    @Parameters(method = "getSpecificOutputs")
+    public void getSpecificReturnsProperResultWithParams(String indirectInput, String expectedOutput){
+        //arrange
+        when(serializer.itemToJson(crawler.getSpecificItem(indirectInput))).thenReturn(expectedOutput);
+        Response result;
+        //act
+        result = crawlerService.getItem(indirectInput);
+        //assert
+        Assert.assertEquals("The expected result is:" + expectedOutput + " was: " + result.toString(), expectedOutput, result.getEntity() );
+    }
+
+    /**
+     * Begining of Get Statistics tests
+     */
+
+
 
 }

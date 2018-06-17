@@ -38,6 +38,24 @@ public class CrawlerService {
 
     }
 
+    //Get Specific
+    @GET
+    @Path("item")
+    @Produces({MediaType.APPLICATION_JSON})
+    public Response getItem(@QueryParam("keyword") String keyword){
+        if ( keyword == null|| keyword.equals("")) {
+            throw new InternalServerErrorException();
+        }
+
+        String gamesOfTheDay = serializer.itemToJson(crawler.getSpecificItem(keyword));
+
+        if ( gamesOfTheDay == null|| gamesOfTheDay.equals("")) {
+            throw new InternalServerErrorException();
+        } else {
+            return Response.ok(gamesOfTheDay).build();
+        }
+    }
+
 
 
 }

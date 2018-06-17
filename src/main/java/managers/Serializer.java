@@ -14,7 +14,7 @@ public class Serializer implements ISerializer {
     }
 
     @Override
-    public String itemToJson(Item item) {
+    public String itemToJson(String item) {
         return null;
     }
 
