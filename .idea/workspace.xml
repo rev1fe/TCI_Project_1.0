@@ -1,19 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="CrawlerService:war exploded" />
+    </artifacts-to-build>
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="064dce74-2663-484b-af62-7115766b64fa" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_javassist_javassist_3_18_2_GA.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_mockito_mockito_all_1_9_5.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_powermock_powermock_api_mockito_1_5_5.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_powermock_powermock_api_support_1_5_5.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_powermock_powermock_core_1_5_5.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_powermock_powermock_reflect_1_5_5.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/TCI_Project_1.0_main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/TCI_Project_1.0_main.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/TCI_Project_1.0_test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/TCI_Project_1.0_test.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CrawlerService/src/service/resources/CrawlerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/CrawlerService/src/service/resources/CrawlerService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/managers/DataItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/managers/DataItem.java" afterDir="false" />
+    <list default="true" id="064dce74-2663-484b-af62-7115766b64fa" name="Default" comment="Full application implemented.">
+      <change beforePath="" afterPath="$PROJECT_DIR$/lib/jsoup-1.11.3.jar" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.0/fileHashes/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/4.0/fileHashes/fileHashes.bin" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.0/fileHashes/fileHashes.lock" afterPath="$PROJECT_DIR$/.gradle/4.0/fileHashes/fileHashes.lock" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jsoup_jsoup_1_11_3.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/TCI_Project_1.0_main.iml" afterPath="$PROJECT_DIR$/.idea/modules/TCI_Project_1.0_main.iml" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/TCI_Project_1.0_test.iml" afterPath="$PROJECT_DIR$/.idea/modules/TCI_Project_1.0_test.iml" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/CrawlerService/CrawlerService.iml" afterPath="$PROJECT_DIR$/CrawlerService/CrawlerService.iml" />
+      <change beforePath="$PROJECT_DIR$/CrawlerService/src/service/resources/CrawlerService.java" afterPath="$PROJECT_DIR$/CrawlerService/src/service/resources/CrawlerService.java" />
+      <change beforePath="$PROJECT_DIR$/CrawlerService/web/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/CrawlerService/web/WEB-INF/web.xml" />
+      <change beforePath="$PROJECT_DIR$/CrawlerService/web/index.jsp" afterPath="$PROJECT_DIR$/CrawlerService/web/index.jsp" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" afterPath="$PROJECT_DIR$/build.gradle" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/crawler/Crawler.class" afterPath="$PROJECT_DIR$/out/production/classes/crawler/Crawler.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/crawler/PagesCrawler.class" afterPath="$PROJECT_DIR$/out/production/classes/crawler/PagesCrawler.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/interfaces/ICrawler.class" afterPath="$PROJECT_DIR$/out/production/classes/interfaces/ICrawler.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/interfaces/ISerializer.class" afterPath="$PROJECT_DIR$/out/production/classes/interfaces/ISerializer.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/interfaces/IStatistics.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/items/Item.class" afterPath="$PROJECT_DIR$/out/production/classes/items/Item.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/items/Movie.class" afterPath="$PROJECT_DIR$/out/production/classes/items/Movie.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/items/Music.class" afterPath="$PROJECT_DIR$/out/production/classes/items/Music.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/managers/DataItem.class" afterPath="$PROJECT_DIR$/out/production/classes/managers/DataItem.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/managers/Serializer.class" afterPath="$PROJECT_DIR$/out/production/classes/managers/Serializer.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/managers/Statistics.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/test/classes/crawler/CrawlerTest.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/crawler/Crawler.java" afterPath="$PROJECT_DIR$/src/main/java/crawler/Crawler.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/crawler/PagesCrawler.java" afterPath="$PROJECT_DIR$/src/main/java/crawler/PagesCrawler.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/interfaces/ICrawler.java" afterPath="$PROJECT_DIR$/src/main/java/interfaces/ICrawler.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/interfaces/ISerializer.java" afterPath="$PROJECT_DIR$/src/main/java/interfaces/ISerializer.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/interfaces/IStatistics.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/managers/Serializer.java" afterPath="$PROJECT_DIR$/src/main/java/managers/Serializer.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/managers/Statistics.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/CrawlerServiceTest.java" afterPath="$PROJECT_DIR$/src/test/java/CrawlerServiceTest.java" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/StatisticsTest.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/crawler/CrawlerTest.java" afterPath="$PROJECT_DIR$/src/test/java/crawler/CrawlerTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -32,6 +59,11 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/TCI_Project_1_0$Crawler.coverage" NAME="Crawler Coverage Results" MODIFIED="1529247636354" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>crawler.*</FILTER>
+    </SUITE>
   </component>
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
@@ -64,44 +96,18 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Crawler.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/crawler/Crawler.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="368">
-              <caret line="89" column="23" selection-start-line="89" selection-start-column="23" selection-end-line="89" selection-end-column="23" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ICrawler.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/interfaces/ICrawler.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="10" column="27" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="27" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="CrawlerService.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/CrawlerService/src/service/resources/CrawlerService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-333">
-              <caret line="15" column="35" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
+            <state relative-caret-position="1394">
+              <caret line="82" column="28" lean-forward="true" selection-start-line="82" selection-start-column="28" selection-end-line="82" selection-end-column="28" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#419#420#0" expanded="true" />
+                <element signature="e#457#458#0" expanded="true" />
+                <element signature="e#514#515#0" expanded="true" />
+                <element signature="e#558#559#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/build.gradle">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" selection-start-line="20" selection-end-line="20" />
             </state>
           </provider>
         </entry>
@@ -112,8 +118,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Class" />
         <option value="JUnit4 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -134,34 +140,18 @@
   <component name="GradleLocalSettings">
     <option name="myGradleHomes">
       <map>
-        <entry key="$PROJECT_DIR$" value="/usr/local/Cellar/gradle/4.7/libexec" />
+        <entry key="$PROJECT_DIR$" value="C:\Users\stili\.gradle\wrapper\dists\gradle-4.0-all\ac27o8rbd0ic8ih41or9l32mv\gradle-4.0" />
         <entry key="$PROJECT_DIR$/CrawlerService" value="/usr/local/Cellar/gradle/4.7/libexec" />
       </map>
     </option>
     <option name="myGradleVersions">
       <map>
-        <entry key="$PROJECT_DIR$" value="4.7" />
+        <entry key="$PROJECT_DIR$" value="4.0" />
         <entry key="$PROJECT_DIR$/CrawlerService" value="4.7" />
       </map>
     </option>
     <option name="availableProjects">
       <map>
-        <entry>
-          <key>
-            <ExternalProjectPojo>
-              <option name="name" value="CrawlerService" />
-              <option name="path" value="$PROJECT_DIR$/CrawlerService" />
-            </ExternalProjectPojo>
-          </key>
-          <value>
-            <list>
-              <ExternalProjectPojo>
-                <option name="name" value="CrawlerService" />
-                <option name="path" value="$PROJECT_DIR$/CrawlerService" />
-              </ExternalProjectPojo>
-            </list>
-          </value>
-        </entry>
         <entry>
           <key>
             <ExternalProjectPojo>
@@ -323,80 +313,13 @@
             </list>
           </value>
         </entry>
-        <entry key="$PROJECT_DIR$/CrawlerService">
-          <value>
-            <list>
-              <ExternalTaskPojo>
-                <option name="description" value="Initializes a new Gradle build." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/CrawlerService" />
-                <option name="name" value="init" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays the components produced by root project 'CrawlerService'. [incubating]" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/CrawlerService" />
-                <option name="name" value="components" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays the sub-projects of root project 'CrawlerService'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/CrawlerService" />
-                <option name="name" value="projects" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays the dependent components of components in root project 'CrawlerService'. [incubating]" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/CrawlerService" />
-                <option name="name" value="dependentComponents" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays all buildscript dependencies declared in root project 'CrawlerService'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/CrawlerService" />
-                <option name="name" value="buildEnvironment" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays the insight into a specific dependency in root project 'CrawlerService'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/CrawlerService" />
-                <option name="name" value="dependencyInsight" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Generates Gradle wrapper files." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/CrawlerService" />
-                <option name="name" value="wrapper" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays all dependencies declared in root project 'CrawlerService'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/CrawlerService" />
-                <option name="name" value="dependencies" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays a help message." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/CrawlerService" />
-                <option name="name" value="help" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays the configuration model of root project 'CrawlerService'. [incubating]" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/CrawlerService" />
-                <option name="name" value="model" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays the properties of root project 'CrawlerService'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/CrawlerService" />
-                <option name="name" value="properties" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays the tasks runnable from root project 'CrawlerService'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/CrawlerService" />
-                <option name="name" value="tasks" />
-              </ExternalTaskPojo>
-            </list>
-          </value>
-        </entry>
       </map>
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$" value="4587728972000" />
+        <entry key="$PROJECT_DIR$" value="4587737874722" />
         <entry key="$PROJECT_DIR$/.gradle" value="0" />
-        <entry key="$PROJECT_DIR$/CrawlerService" value="0" />
-        <entry key="$PROJECT_DIR$/build.gradle" value="1465977283" />
+        <entry key="$PROJECT_DIR$/build.gradle" value="26353455" />
         <entry key="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" value="566444372" />
         <entry key="$PROJECT_DIR$/settings.gradle" value="1689219570" />
       </map>
@@ -420,182 +343,140 @@
               <option name="name" value="TCI_Project_1.0" />
               <option name="projectBuildClasspath">
                 <list>
-                  <option value="/usr/local/Cellar/gradle/4.7/libexec/lib/gradle-logging-4.7.jar" />
-                  <option value="/usr/local/Cellar/gradle/4.7/libexec/lib/gradle-wrapper-4.7.jar" />
-                  <option value="/usr/local/Cellar/gradle/4.7/libexec/lib/gradle-runtime-api-info-4.7.jar" />
-                  <option value="/usr/local/Cellar/gradle/4.7/libexec/lib/gradle-native-4.7.jar" />
-                  <option value="/usr/local/Cellar/gradle/4.7/libexec/lib/gradle-process-services-4.7.jar" />
-                  <option value="/usr/local/Cellar/gradle/4.7/libexec/lib/gradle-kotlin-dsl-tooling-builders-0.16.3.jar" />
-                  <option value="/usr/local/Cellar/gradle/4.7/libexec/lib/gradle-build-cache-4.7.jar" />
-                  <option value="/usr/local/Cellar/gradle/4.7/libexec/lib/gradle-core-4.7.jar" />
-                  <option value="/usr/local/Cellar/gradle/4.7/libexec/lib/groovy-all-2.4.12.jar" />
-                  <option value="/usr/local/Cellar/gradle/4.7/libexec/lib/gradle-model-core-4.7.jar" />
-                  <option value="/usr/local/Cellar/gradle/4.7/libexec/lib/gradle-base-services-groovy-4.7.jar" />
-                  <option value="/usr/local/Cellar/gradle/4.7/libexec/lib/ant-launcher-1.9.9.jar" />
-                  <option value="/usr/local/Cellar/gradle/4.7/libexec/lib/gradle-installation-beacon-4.7.jar" />
-                  <option value="/usr/local/Cellar/gradle/4.7/libexec/lib/ant-1.9.9.jar" />
-                  <option value="/usr/local/Cellar/gradle/4.7/libexec/lib/gradle-launcher-4.7.jar" />
-                  <option value="/usr/local/Cellar/gradle/4.7/libexec/lib/gradle-jvm-services-4.7.jar" />
-                  <option value="/usr/local/Cellar/gradle/4.7/libexec/lib/gradle-messaging-4.7.jar" />
-                  <option value="/usr/local/Cellar/gradle/4.7/libexec/lib/gradle-build-option-4.7.jar" />
-                  <option value="/usr/local/Cellar/gradle/4.7/libexec/lib/gradle-base-services-4.7.jar" />
-                  <option value="/usr/local/Cellar/gradle/4.7/libexec/lib/gradle-persistent-cache-4.7.jar" />
-                  <option value="/usr/local/Cellar/gradle/4.7/libexec/lib/gradle-docs-4.7.jar" />
-                  <option value="/usr/local/Cellar/gradle/4.7/libexec/lib/gradle-cli-4.7.jar" />
-                  <option value="/usr/local/Cellar/gradle/4.7/libexec/lib/gradle-tooling-api-4.7.jar" />
-                  <option value="/usr/local/Cellar/gradle/4.7/libexec/lib/gradle-kotlin-dsl-tooling-models-0.16.3.jar" />
-                  <option value="/usr/local/Cellar/gradle/4.7/libexec/lib/gradle-core-api-4.7.jar" />
-                  <option value="/usr/local/Cellar/gradle/4.7/libexec/lib/gradle-model-groovy-4.7.jar" />
-                  <option value="/usr/local/Cellar/gradle/4.7/libexec/lib/gradle-resources-4.7.jar" />
-                  <option value="/usr/local/Cellar/gradle/4.7/libexec/lib/gradle-kotlin-dsl-0.16.3.jar" />
-                  <option value="/usr/local/Cellar/gradle/4.7/libexec/lib/plugins/gradle-plugin-use-4.7.jar" />
-                  <option value="/usr/local/Cellar/gradle/4.7/libexec/lib/plugins/gradle-announce-4.7.jar" />
-                  <option value="/usr/local/Cellar/gradle/4.7/libexec/lib/plugins/gradle-tooling-api-builders-4.7.jar" />
-                  <option value="/usr/local/Cellar/gradle/4.7/libexec/lib/plugins/gradle-ide-play-4.7.jar" />
-                  <option value="/usr/local/Cellar/gradle/4.7/libexec/lib/plugins/gradle-language-scala-4.7.jar" />
-                  <option value="/usr/local/Cellar/gradle/4.7/libexec/lib/plugins/gradle-javascript-4.7.jar" />
-                  <option value="/usr/local/Cellar/gradle/4.7/libexec/lib/plugins/gradle-version-control-4.7.jar" />
-                  <option value="/usr/local/Cellar/gradle/4.7/libexec/lib/plugins/gradle-language-native-4.7.jar" />
-                  <option value="/usr/local/Cellar/gradle/4.7/libexec/lib/plugins/gradle-build-comparison-4.7.jar" />
-                  <option value="/usr/local/Cellar/gradle/4.7/libexec/lib/plugins/gradle-plugins-4.7.jar" />
-                  <option value="/usr/local/Cellar/gradle/4.7/libexec/lib/plugins/gradle-jacoco-4.7.jar" />
-                  <option value="/usr/local/Cellar/gradle/4.7/libexec/lib/plugins/gradle-platform-native-4.7.jar" />
-                  <option value="/usr/local/Cellar/gradle/4.7/libexec/lib/plugins/gradle-ide-native-4.7.jar" />
-                  <option value="/usr/local/Cellar/gradle/4.7/libexec/lib/plugins/gradle-diagnostics-4.7.jar" />
-                  <option value="/usr/local/Cellar/gradle/4.7/libexec/lib/plugins/gradle-plugin-development-4.7.jar" />
-                  <option value="/usr/local/Cellar/gradle/4.7/libexec/lib/plugins/gradle-workers-4.7.jar" />
-                  <option value="/usr/local/Cellar/gradle/4.7/libexec/lib/plugins/gradle-build-cache-http-4.7.jar" />
-                  <option value="/usr/local/Cellar/gradle/4.7/libexec/lib/plugins/gradle-testing-native-4.7.jar" />
-                  <option value="/usr/local/Cellar/gradle/4.7/libexec/lib/plugins/gradle-dependency-management-4.7.jar" />
-                  <option value="/usr/local/Cellar/gradle/4.7/libexec/lib/plugins/gradle-composite-builds-4.7.jar" />
-                  <option value="/usr/local/Cellar/gradle/4.7/libexec/lib/plugins/gradle-testing-junit-platform-4.7.jar" />
-                  <option value="/usr/local/Cellar/gradle/4.7/libexec/lib/plugins/gradle-publish-4.7.jar" />
-                  <option value="/usr/local/Cellar/gradle/4.7/libexec/lib/plugins/gradle-ear-4.7.jar" />
-                  <option value="/usr/local/Cellar/gradle/4.7/libexec/lib/plugins/gradle-language-jvm-4.7.jar" />
-                  <option value="/usr/local/Cellar/gradle/4.7/libexec/lib/plugins/gradle-platform-base-4.7.jar" />
-                  <option value="/usr/local/Cellar/gradle/4.7/libexec/lib/plugins/gradle-resources-gcs-4.7.jar" />
-                  <option value="/usr/local/Cellar/gradle/4.7/libexec/lib/plugins/gradle-ide-4.7.jar" />
-                  <option value="/usr/local/Cellar/gradle/4.7/libexec/lib/plugins/gradle-platform-play-4.7.jar" />
-                  <option value="/usr/local/Cellar/gradle/4.7/libexec/lib/plugins/gradle-resources-http-4.7.jar" />
-                  <option value="/usr/local/Cellar/gradle/4.7/libexec/lib/plugins/gradle-scala-4.7.jar" />
-                  <option value="/usr/local/Cellar/gradle/4.7/libexec/lib/plugins/gradle-language-java-4.7.jar" />
-                  <option value="/usr/local/Cellar/gradle/4.7/libexec/lib/plugins/gradle-language-groovy-4.7.jar" />
-                  <option value="/usr/local/Cellar/gradle/4.7/libexec/lib/plugins/gradle-osgi-4.7.jar" />
-                  <option value="/usr/local/Cellar/gradle/4.7/libexec/lib/plugins/gradle-reporting-4.7.jar" />
-                  <option value="/usr/local/Cellar/gradle/4.7/libexec/lib/plugins/gradle-antlr-4.7.jar" />
-                  <option value="/usr/local/Cellar/gradle/4.7/libexec/lib/plugins/gradle-code-quality-4.7.jar" />
-                  <option value="/usr/local/Cellar/gradle/4.7/libexec/lib/plugins/gradle-resources-s3-4.7.jar" />
-                  <option value="/usr/local/Cellar/gradle/4.7/libexec/lib/plugins/gradle-signing-4.7.jar" />
-                  <option value="/usr/local/Cellar/gradle/4.7/libexec/lib/plugins/gradle-resources-sftp-4.7.jar" />
-                  <option value="/usr/local/Cellar/gradle/4.7/libexec/lib/plugins/gradle-ivy-4.7.jar" />
-                  <option value="/usr/local/Cellar/gradle/4.7/libexec/lib/plugins/gradle-test-kit-4.7.jar" />
-                  <option value="/usr/local/Cellar/gradle/4.7/libexec/lib/plugins/gradle-build-init-4.7.jar" />
-                  <option value="/usr/local/Cellar/gradle/4.7/libexec/lib/plugins/gradle-testing-jvm-4.7.jar" />
-                  <option value="/usr/local/Cellar/gradle/4.7/libexec/lib/plugins/gradle-testing-base-4.7.jar" />
-                  <option value="/usr/local/Cellar/gradle/4.7/libexec/lib/plugins/gradle-platform-jvm-4.7.jar" />
-                  <option value="/usr/local/Cellar/gradle/4.7/libexec/lib/plugins/ivy-2.2.0.jar" />
-                  <option value="/usr/local/Cellar/gradle/4.7/libexec/lib/plugins/gradle-maven-4.7.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0-all/ac27o8rbd0ic8ih41or9l32mv/gradle-4.0/src/announce" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0-all/ac27o8rbd0ic8ih41or9l32mv/gradle-4.0/src/antlr" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0-all/ac27o8rbd0ic8ih41or9l32mv/gradle-4.0/src/base-services" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0-all/ac27o8rbd0ic8ih41or9l32mv/gradle-4.0/src/base-services-groovy" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0-all/ac27o8rbd0ic8ih41or9l32mv/gradle-4.0/src/build-cache-http" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0-all/ac27o8rbd0ic8ih41or9l32mv/gradle-4.0/src/build-comparison" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0-all/ac27o8rbd0ic8ih41or9l32mv/gradle-4.0/src/build-init" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0-all/ac27o8rbd0ic8ih41or9l32mv/gradle-4.0/src/cli" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0-all/ac27o8rbd0ic8ih41or9l32mv/gradle-4.0/src/code-quality" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0-all/ac27o8rbd0ic8ih41or9l32mv/gradle-4.0/src/composite-builds" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0-all/ac27o8rbd0ic8ih41or9l32mv/gradle-4.0/src/core" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0-all/ac27o8rbd0ic8ih41or9l32mv/gradle-4.0/src/dependency-management" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0-all/ac27o8rbd0ic8ih41or9l32mv/gradle-4.0/src/diagnostics" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0-all/ac27o8rbd0ic8ih41or9l32mv/gradle-4.0/src/ear" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0-all/ac27o8rbd0ic8ih41or9l32mv/gradle-4.0/src/ide" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0-all/ac27o8rbd0ic8ih41or9l32mv/gradle-4.0/src/ide-native" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0-all/ac27o8rbd0ic8ih41or9l32mv/gradle-4.0/src/ide-play" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0-all/ac27o8rbd0ic8ih41or9l32mv/gradle-4.0/src/installation-beacon" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0-all/ac27o8rbd0ic8ih41or9l32mv/gradle-4.0/src/internal-android-performance-testing" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0-all/ac27o8rbd0ic8ih41or9l32mv/gradle-4.0/src/internal-integ-testing" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0-all/ac27o8rbd0ic8ih41or9l32mv/gradle-4.0/src/internal-performance-testing" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0-all/ac27o8rbd0ic8ih41or9l32mv/gradle-4.0/src/internal-testing" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0-all/ac27o8rbd0ic8ih41or9l32mv/gradle-4.0/src/ivy" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0-all/ac27o8rbd0ic8ih41or9l32mv/gradle-4.0/src/jacoco" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0-all/ac27o8rbd0ic8ih41or9l32mv/gradle-4.0/src/javascript" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0-all/ac27o8rbd0ic8ih41or9l32mv/gradle-4.0/src/jvm-services" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0-all/ac27o8rbd0ic8ih41or9l32mv/gradle-4.0/src/language-groovy" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0-all/ac27o8rbd0ic8ih41or9l32mv/gradle-4.0/src/language-java" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0-all/ac27o8rbd0ic8ih41or9l32mv/gradle-4.0/src/language-jvm" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0-all/ac27o8rbd0ic8ih41or9l32mv/gradle-4.0/src/language-native" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0-all/ac27o8rbd0ic8ih41or9l32mv/gradle-4.0/src/language-scala" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0-all/ac27o8rbd0ic8ih41or9l32mv/gradle-4.0/src/launcher" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0-all/ac27o8rbd0ic8ih41or9l32mv/gradle-4.0/src/logging" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0-all/ac27o8rbd0ic8ih41or9l32mv/gradle-4.0/src/maven" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0-all/ac27o8rbd0ic8ih41or9l32mv/gradle-4.0/src/messaging" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0-all/ac27o8rbd0ic8ih41or9l32mv/gradle-4.0/src/model-core" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0-all/ac27o8rbd0ic8ih41or9l32mv/gradle-4.0/src/model-groovy" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0-all/ac27o8rbd0ic8ih41or9l32mv/gradle-4.0/src/native" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0-all/ac27o8rbd0ic8ih41or9l32mv/gradle-4.0/src/osgi" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0-all/ac27o8rbd0ic8ih41or9l32mv/gradle-4.0/src/platform-base" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0-all/ac27o8rbd0ic8ih41or9l32mv/gradle-4.0/src/platform-jvm" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0-all/ac27o8rbd0ic8ih41or9l32mv/gradle-4.0/src/platform-native" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0-all/ac27o8rbd0ic8ih41or9l32mv/gradle-4.0/src/platform-play" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0-all/ac27o8rbd0ic8ih41or9l32mv/gradle-4.0/src/plugin-development" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0-all/ac27o8rbd0ic8ih41or9l32mv/gradle-4.0/src/plugin-use" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0-all/ac27o8rbd0ic8ih41or9l32mv/gradle-4.0/src/plugins" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0-all/ac27o8rbd0ic8ih41or9l32mv/gradle-4.0/src/process-services" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0-all/ac27o8rbd0ic8ih41or9l32mv/gradle-4.0/src/publish" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0-all/ac27o8rbd0ic8ih41or9l32mv/gradle-4.0/src/reporting" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0-all/ac27o8rbd0ic8ih41or9l32mv/gradle-4.0/src/resources" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0-all/ac27o8rbd0ic8ih41or9l32mv/gradle-4.0/src/resources-http" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0-all/ac27o8rbd0ic8ih41or9l32mv/gradle-4.0/src/resources-s3" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0-all/ac27o8rbd0ic8ih41or9l32mv/gradle-4.0/src/resources-sftp" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0-all/ac27o8rbd0ic8ih41or9l32mv/gradle-4.0/src/scala" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0-all/ac27o8rbd0ic8ih41or9l32mv/gradle-4.0/src/signing" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0-all/ac27o8rbd0ic8ih41or9l32mv/gradle-4.0/src/test-kit" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0-all/ac27o8rbd0ic8ih41or9l32mv/gradle-4.0/src/testing-base" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0-all/ac27o8rbd0ic8ih41or9l32mv/gradle-4.0/src/testing-jvm" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0-all/ac27o8rbd0ic8ih41or9l32mv/gradle-4.0/src/testing-native" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0-all/ac27o8rbd0ic8ih41or9l32mv/gradle-4.0/src/tooling-api" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0-all/ac27o8rbd0ic8ih41or9l32mv/gradle-4.0/src/tooling-api-builders" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0-all/ac27o8rbd0ic8ih41or9l32mv/gradle-4.0/src/workers" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0-all/ac27o8rbd0ic8ih41or9l32mv/gradle-4.0/src/wrapper" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0-all/ac27o8rbd0ic8ih41or9l32mv/gradle-4.0/lib/ant-1.9.6.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0-all/ac27o8rbd0ic8ih41or9l32mv/gradle-4.0/lib/ant-launcher-1.9.6.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0-all/ac27o8rbd0ic8ih41or9l32mv/gradle-4.0/lib/gradle-base-services-4.0.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0-all/ac27o8rbd0ic8ih41or9l32mv/gradle-4.0/lib/gradle-base-services-groovy-4.0.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0-all/ac27o8rbd0ic8ih41or9l32mv/gradle-4.0/lib/gradle-cli-4.0.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0-all/ac27o8rbd0ic8ih41or9l32mv/gradle-4.0/lib/gradle-core-4.0.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0-all/ac27o8rbd0ic8ih41or9l32mv/gradle-4.0/lib/gradle-docs-4.0.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0-all/ac27o8rbd0ic8ih41or9l32mv/gradle-4.0/lib/gradle-installation-beacon-4.0.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0-all/ac27o8rbd0ic8ih41or9l32mv/gradle-4.0/lib/gradle-jvm-services-4.0.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0-all/ac27o8rbd0ic8ih41or9l32mv/gradle-4.0/lib/gradle-launcher-4.0.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0-all/ac27o8rbd0ic8ih41or9l32mv/gradle-4.0/lib/gradle-logging-4.0.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0-all/ac27o8rbd0ic8ih41or9l32mv/gradle-4.0/lib/gradle-messaging-4.0.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0-all/ac27o8rbd0ic8ih41or9l32mv/gradle-4.0/lib/gradle-model-core-4.0.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0-all/ac27o8rbd0ic8ih41or9l32mv/gradle-4.0/lib/gradle-model-groovy-4.0.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0-all/ac27o8rbd0ic8ih41or9l32mv/gradle-4.0/lib/gradle-native-4.0.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0-all/ac27o8rbd0ic8ih41or9l32mv/gradle-4.0/lib/gradle-process-services-4.0.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0-all/ac27o8rbd0ic8ih41or9l32mv/gradle-4.0/lib/gradle-resources-4.0.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0-all/ac27o8rbd0ic8ih41or9l32mv/gradle-4.0/lib/gradle-runtime-api-info-4.0.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0-all/ac27o8rbd0ic8ih41or9l32mv/gradle-4.0/lib/gradle-script-kotlin-0.9.0.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0-all/ac27o8rbd0ic8ih41or9l32mv/gradle-4.0/lib/gradle-script-kotlin-compiler-plugin-0.9.0.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0-all/ac27o8rbd0ic8ih41or9l32mv/gradle-4.0/lib/gradle-script-kotlin-tooling-builders-0.9.0.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0-all/ac27o8rbd0ic8ih41or9l32mv/gradle-4.0/lib/gradle-script-kotlin-tooling-models-0.9.0.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0-all/ac27o8rbd0ic8ih41or9l32mv/gradle-4.0/lib/gradle-tooling-api-4.0.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0-all/ac27o8rbd0ic8ih41or9l32mv/gradle-4.0/lib/gradle-wrapper-4.0.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0-all/ac27o8rbd0ic8ih41or9l32mv/gradle-4.0/lib/groovy-all-2.4.11.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0-all/ac27o8rbd0ic8ih41or9l32mv/gradle-4.0/lib/plugins/gradle-announce-4.0.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0-all/ac27o8rbd0ic8ih41or9l32mv/gradle-4.0/lib/plugins/gradle-antlr-4.0.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0-all/ac27o8rbd0ic8ih41or9l32mv/gradle-4.0/lib/plugins/gradle-build-cache-http-4.0.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0-all/ac27o8rbd0ic8ih41or9l32mv/gradle-4.0/lib/plugins/gradle-build-comparison-4.0.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0-all/ac27o8rbd0ic8ih41or9l32mv/gradle-4.0/lib/plugins/gradle-build-init-4.0.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0-all/ac27o8rbd0ic8ih41or9l32mv/gradle-4.0/lib/plugins/gradle-code-quality-4.0.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0-all/ac27o8rbd0ic8ih41or9l32mv/gradle-4.0/lib/plugins/gradle-composite-builds-4.0.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0-all/ac27o8rbd0ic8ih41or9l32mv/gradle-4.0/lib/plugins/gradle-dependency-management-4.0.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0-all/ac27o8rbd0ic8ih41or9l32mv/gradle-4.0/lib/plugins/gradle-diagnostics-4.0.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0-all/ac27o8rbd0ic8ih41or9l32mv/gradle-4.0/lib/plugins/gradle-ear-4.0.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0-all/ac27o8rbd0ic8ih41or9l32mv/gradle-4.0/lib/plugins/gradle-ide-4.0.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0-all/ac27o8rbd0ic8ih41or9l32mv/gradle-4.0/lib/plugins/gradle-ide-native-4.0.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0-all/ac27o8rbd0ic8ih41or9l32mv/gradle-4.0/lib/plugins/gradle-ide-play-4.0.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0-all/ac27o8rbd0ic8ih41or9l32mv/gradle-4.0/lib/plugins/gradle-ivy-4.0.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0-all/ac27o8rbd0ic8ih41or9l32mv/gradle-4.0/lib/plugins/gradle-jacoco-4.0.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0-all/ac27o8rbd0ic8ih41or9l32mv/gradle-4.0/lib/plugins/gradle-javascript-4.0.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0-all/ac27o8rbd0ic8ih41or9l32mv/gradle-4.0/lib/plugins/gradle-language-groovy-4.0.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0-all/ac27o8rbd0ic8ih41or9l32mv/gradle-4.0/lib/plugins/gradle-language-java-4.0.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0-all/ac27o8rbd0ic8ih41or9l32mv/gradle-4.0/lib/plugins/gradle-language-jvm-4.0.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0-all/ac27o8rbd0ic8ih41or9l32mv/gradle-4.0/lib/plugins/gradle-language-native-4.0.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0-all/ac27o8rbd0ic8ih41or9l32mv/gradle-4.0/lib/plugins/gradle-language-scala-4.0.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0-all/ac27o8rbd0ic8ih41or9l32mv/gradle-4.0/lib/plugins/gradle-maven-4.0.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0-all/ac27o8rbd0ic8ih41or9l32mv/gradle-4.0/lib/plugins/gradle-osgi-4.0.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0-all/ac27o8rbd0ic8ih41or9l32mv/gradle-4.0/lib/plugins/gradle-platform-base-4.0.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0-all/ac27o8rbd0ic8ih41or9l32mv/gradle-4.0/lib/plugins/gradle-platform-jvm-4.0.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0-all/ac27o8rbd0ic8ih41or9l32mv/gradle-4.0/lib/plugins/gradle-platform-native-4.0.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0-all/ac27o8rbd0ic8ih41or9l32mv/gradle-4.0/lib/plugins/gradle-platform-play-4.0.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0-all/ac27o8rbd0ic8ih41or9l32mv/gradle-4.0/lib/plugins/gradle-plugin-development-4.0.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0-all/ac27o8rbd0ic8ih41or9l32mv/gradle-4.0/lib/plugins/gradle-plugin-use-4.0.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0-all/ac27o8rbd0ic8ih41or9l32mv/gradle-4.0/lib/plugins/gradle-plugins-4.0.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0-all/ac27o8rbd0ic8ih41or9l32mv/gradle-4.0/lib/plugins/gradle-publish-4.0.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0-all/ac27o8rbd0ic8ih41or9l32mv/gradle-4.0/lib/plugins/gradle-reporting-4.0.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0-all/ac27o8rbd0ic8ih41or9l32mv/gradle-4.0/lib/plugins/gradle-resources-http-4.0.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0-all/ac27o8rbd0ic8ih41or9l32mv/gradle-4.0/lib/plugins/gradle-resources-s3-4.0.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0-all/ac27o8rbd0ic8ih41or9l32mv/gradle-4.0/lib/plugins/gradle-resources-sftp-4.0.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0-all/ac27o8rbd0ic8ih41or9l32mv/gradle-4.0/lib/plugins/gradle-scala-4.0.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0-all/ac27o8rbd0ic8ih41or9l32mv/gradle-4.0/lib/plugins/gradle-signing-4.0.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0-all/ac27o8rbd0ic8ih41or9l32mv/gradle-4.0/lib/plugins/gradle-test-kit-4.0.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0-all/ac27o8rbd0ic8ih41or9l32mv/gradle-4.0/lib/plugins/gradle-testing-base-4.0.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0-all/ac27o8rbd0ic8ih41or9l32mv/gradle-4.0/lib/plugins/gradle-testing-jvm-4.0.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0-all/ac27o8rbd0ic8ih41or9l32mv/gradle-4.0/lib/plugins/gradle-testing-native-4.0.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0-all/ac27o8rbd0ic8ih41or9l32mv/gradle-4.0/lib/plugins/gradle-tooling-api-builders-4.0.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0-all/ac27o8rbd0ic8ih41or9l32mv/gradle-4.0/lib/plugins/gradle-workers-4.0.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.0-all/ac27o8rbd0ic8ih41or9l32mv/gradle-4.0/lib/plugins/ivy-2.2.0.jar" />
                   <option value="$PROJECT_DIR$/buildSrc/src/main/java" />
                   <option value="$PROJECT_DIR$/buildSrc/src/main/groovy" />
-                </list>
-              </option>
-            </ExternalProjectBuildClasspathPojo>
-          </value>
-        </entry>
-        <entry key="$PROJECT_DIR$/CrawlerService">
-          <value>
-            <ExternalProjectBuildClasspathPojo>
-              <option name="modulesBuildClasspath">
-                <map>
-                  <entry key="$PROJECT_DIR$/CrawlerService">
-                    <value>
-                      <ExternalModuleBuildClasspathPojo>
-                        <option name="path" value="$PROJECT_DIR$/CrawlerService" />
-                      </ExternalModuleBuildClasspathPojo>
-                    </value>
-                  </entry>
-                </map>
-              </option>
-              <option name="name" value="CrawlerService" />
-              <option name="projectBuildClasspath">
-                <list>
-                  <option value="/usr/local/Cellar/gradle/4.7/libexec/lib/gradle-logging-4.7.jar" />
-                  <option value="/usr/local/Cellar/gradle/4.7/libexec/lib/gradle-wrapper-4.7.jar" />
-                  <option value="/usr/local/Cellar/gradle/4.7/libexec/lib/gradle-runtime-api-info-4.7.jar" />
-                  <option value="/usr/local/Cellar/gradle/4.7/libexec/lib/gradle-native-4.7.jar" />
-                  <option value="/usr/local/Cellar/gradle/4.7/libexec/lib/gradle-process-services-4.7.jar" />
-                  <option value="/usr/local/Cellar/gradle/4.7/libexec/lib/gradle-kotlin-dsl-tooling-builders-0.16.3.jar" />
-                  <option value="/usr/local/Cellar/gradle/4.7/libexec/lib/gradle-build-cache-4.7.jar" />
-                  <option value="/usr/local/Cellar/gradle/4.7/libexec/lib/gradle-core-4.7.jar" />
-                  <option value="/usr/local/Cellar/gradle/4.7/libexec/lib/groovy-all-2.4.12.jar" />
-                  <option value="/usr/local/Cellar/gradle/4.7/libexec/lib/gradle-model-core-4.7.jar" />
-                  <option value="/usr/local/Cellar/gradle/4.7/libexec/lib/gradle-base-services-groovy-4.7.jar" />
-                  <option value="/usr/local/Cellar/gradle/4.7/libexec/lib/ant-launcher-1.9.9.jar" />
-                  <option value="/usr/local/Cellar/gradle/4.7/libexec/lib/gradle-installation-beacon-4.7.jar" />
-                  <option value="/usr/local/Cellar/gradle/4.7/libexec/lib/ant-1.9.9.jar" />
-                  <option value="/usr/local/Cellar/gradle/4.7/libexec/lib/gradle-launcher-4.7.jar" />
-                  <option value="/usr/local/Cellar/gradle/4.7/libexec/lib/gradle-jvm-services-4.7.jar" />
-                  <option value="/usr/local/Cellar/gradle/4.7/libexec/lib/gradle-messaging-4.7.jar" />
-                  <option value="/usr/local/Cellar/gradle/4.7/libexec/lib/gradle-build-option-4.7.jar" />
-                  <option value="/usr/local/Cellar/gradle/4.7/libexec/lib/gradle-base-services-4.7.jar" />
-                  <option value="/usr/local/Cellar/gradle/4.7/libexec/lib/gradle-persistent-cache-4.7.jar" />
-                  <option value="/usr/local/Cellar/gradle/4.7/libexec/lib/gradle-docs-4.7.jar" />
-                  <option value="/usr/local/Cellar/gradle/4.7/libexec/lib/gradle-cli-4.7.jar" />
-                  <option value="/usr/local/Cellar/gradle/4.7/libexec/lib/gradle-tooling-api-4.7.jar" />
-                  <option value="/usr/local/Cellar/gradle/4.7/libexec/lib/gradle-kotlin-dsl-tooling-models-0.16.3.jar" />
-                  <option value="/usr/local/Cellar/gradle/4.7/libexec/lib/gradle-core-api-4.7.jar" />
-                  <option value="/usr/local/Cellar/gradle/4.7/libexec/lib/gradle-model-groovy-4.7.jar" />
-                  <option value="/usr/local/Cellar/gradle/4.7/libexec/lib/gradle-resources-4.7.jar" />
-                  <option value="/usr/local/Cellar/gradle/4.7/libexec/lib/gradle-kotlin-dsl-0.16.3.jar" />
-                  <option value="/usr/local/Cellar/gradle/4.7/libexec/lib/plugins/gradle-plugin-use-4.7.jar" />
-                  <option value="/usr/local/Cellar/gradle/4.7/libexec/lib/plugins/gradle-announce-4.7.jar" />
-                  <option value="/usr/local/Cellar/gradle/4.7/libexec/lib/plugins/gradle-tooling-api-builders-4.7.jar" />
-                  <option value="/usr/local/Cellar/gradle/4.7/libexec/lib/plugins/gradle-ide-play-4.7.jar" />
-                  <option value="/usr/local/Cellar/gradle/4.7/libexec/lib/plugins/gradle-language-scala-4.7.jar" />
-                  <option value="/usr/local/Cellar/gradle/4.7/libexec/lib/plugins/gradle-javascript-4.7.jar" />
-                  <option value="/usr/local/Cellar/gradle/4.7/libexec/lib/plugins/gradle-version-control-4.7.jar" />
-                  <option value="/usr/local/Cellar/gradle/4.7/libexec/lib/plugins/gradle-language-native-4.7.jar" />
-                  <option value="/usr/local/Cellar/gradle/4.7/libexec/lib/plugins/gradle-build-comparison-4.7.jar" />
-                  <option value="/usr/local/Cellar/gradle/4.7/libexec/lib/plugins/gradle-plugins-4.7.jar" />
-                  <option value="/usr/local/Cellar/gradle/4.7/libexec/lib/plugins/gradle-jacoco-4.7.jar" />
-                  <option value="/usr/local/Cellar/gradle/4.7/libexec/lib/plugins/gradle-platform-native-4.7.jar" />
-                  <option value="/usr/local/Cellar/gradle/4.7/libexec/lib/plugins/gradle-ide-native-4.7.jar" />
-                  <option value="/usr/local/Cellar/gradle/4.7/libexec/lib/plugins/gradle-diagnostics-4.7.jar" />
-                  <option value="/usr/local/Cellar/gradle/4.7/libexec/lib/plugins/gradle-plugin-development-4.7.jar" />
-                  <option value="/usr/local/Cellar/gradle/4.7/libexec/lib/plugins/gradle-workers-4.7.jar" />
-                  <option value="/usr/local/Cellar/gradle/4.7/libexec/lib/plugins/gradle-build-cache-http-4.7.jar" />
-                  <option value="/usr/local/Cellar/gradle/4.7/libexec/lib/plugins/gradle-testing-native-4.7.jar" />
-                  <option value="/usr/local/Cellar/gradle/4.7/libexec/lib/plugins/gradle-dependency-management-4.7.jar" />
-                  <option value="/usr/local/Cellar/gradle/4.7/libexec/lib/plugins/gradle-composite-builds-4.7.jar" />
-                  <option value="/usr/local/Cellar/gradle/4.7/libexec/lib/plugins/gradle-testing-junit-platform-4.7.jar" />
-                  <option value="/usr/local/Cellar/gradle/4.7/libexec/lib/plugins/gradle-publish-4.7.jar" />
-                  <option value="/usr/local/Cellar/gradle/4.7/libexec/lib/plugins/gradle-ear-4.7.jar" />
-                  <option value="/usr/local/Cellar/gradle/4.7/libexec/lib/plugins/gradle-language-jvm-4.7.jar" />
-                  <option value="/usr/local/Cellar/gradle/4.7/libexec/lib/plugins/gradle-platform-base-4.7.jar" />
-                  <option value="/usr/local/Cellar/gradle/4.7/libexec/lib/plugins/gradle-resources-gcs-4.7.jar" />
-                  <option value="/usr/local/Cellar/gradle/4.7/libexec/lib/plugins/gradle-ide-4.7.jar" />
-                  <option value="/usr/local/Cellar/gradle/4.7/libexec/lib/plugins/gradle-platform-play-4.7.jar" />
-                  <option value="/usr/local/Cellar/gradle/4.7/libexec/lib/plugins/gradle-resources-http-4.7.jar" />
-                  <option value="/usr/local/Cellar/gradle/4.7/libexec/lib/plugins/gradle-scala-4.7.jar" />
-                  <option value="/usr/local/Cellar/gradle/4.7/libexec/lib/plugins/gradle-language-java-4.7.jar" />
-                  <option value="/usr/local/Cellar/gradle/4.7/libexec/lib/plugins/gradle-language-groovy-4.7.jar" />
-                  <option value="/usr/local/Cellar/gradle/4.7/libexec/lib/plugins/gradle-osgi-4.7.jar" />
-                  <option value="/usr/local/Cellar/gradle/4.7/libexec/lib/plugins/gradle-reporting-4.7.jar" />
-                  <option value="/usr/local/Cellar/gradle/4.7/libexec/lib/plugins/gradle-antlr-4.7.jar" />
-                  <option value="/usr/local/Cellar/gradle/4.7/libexec/lib/plugins/gradle-code-quality-4.7.jar" />
-                  <option value="/usr/local/Cellar/gradle/4.7/libexec/lib/plugins/gradle-resources-s3-4.7.jar" />
-                  <option value="/usr/local/Cellar/gradle/4.7/libexec/lib/plugins/gradle-signing-4.7.jar" />
-                  <option value="/usr/local/Cellar/gradle/4.7/libexec/lib/plugins/gradle-resources-sftp-4.7.jar" />
-                  <option value="/usr/local/Cellar/gradle/4.7/libexec/lib/plugins/gradle-ivy-4.7.jar" />
-                  <option value="/usr/local/Cellar/gradle/4.7/libexec/lib/plugins/gradle-test-kit-4.7.jar" />
-                  <option value="/usr/local/Cellar/gradle/4.7/libexec/lib/plugins/gradle-build-init-4.7.jar" />
-                  <option value="/usr/local/Cellar/gradle/4.7/libexec/lib/plugins/gradle-testing-jvm-4.7.jar" />
-                  <option value="/usr/local/Cellar/gradle/4.7/libexec/lib/plugins/gradle-testing-base-4.7.jar" />
-                  <option value="/usr/local/Cellar/gradle/4.7/libexec/lib/plugins/gradle-platform-jvm-4.7.jar" />
-                  <option value="/usr/local/Cellar/gradle/4.7/libexec/lib/plugins/ivy-2.2.0.jar" />
-                  <option value="/usr/local/Cellar/gradle/4.7/libexec/lib/plugins/gradle-maven-4.7.jar" />
-                  <option value="$PROJECT_DIR$/CrawlerService/buildSrc/src/main/java" />
-                  <option value="$PROJECT_DIR$/CrawlerService/buildSrc/src/main/groovy" />
                 </list>
               </option>
             </ExternalProjectBuildClasspathPojo>
@@ -606,7 +487,6 @@
     <option name="projectSyncType">
       <map>
         <entry key="$PROJECT_DIR$" value="RE_IMPORT" />
-        <entry key="$PROJECT_DIR$/CrawlerService" value="IMPORT" />
       </map>
     </option>
   </component>
@@ -616,10 +496,7 @@
         <option value="$PROJECT_DIR$/src/main/java/items/Item.java" />
         <option value="$PROJECT_DIR$/src/main/java/items/Movie.java" />
         <option value="$PROJECT_DIR$/src/main/java/items/Music.java" />
-        <option value="$PROJECT_DIR$/src/main/java/interfaces/ISerializer.java" />
-        <option value="$PROJECT_DIR$/src/main/java/managers/Serializer.java" />
         <option value="$PROJECT_DIR$/src/main/java/interfaces/IStatistics.java" />
-        <option value="$PROJECT_DIR$/src/main/java/managers/Statistics.java" />
         <option value="$PROJECT_DIR$/src/test/java/BookAssert.java" />
         <option value="$PROJECT_DIR$/src/main/java/items/Book.java" />
         <option value="$PROJECT_DIR$/src/test/java/BookTest.java" />
@@ -627,13 +504,18 @@
         <option value="$PROJECT_DIR$/src/test/java/crawler/Crawler.java" />
         <option value="$PROJECT_DIR$/src/test/java/crawler/PagesCrawlerTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/crawler/PageCrawler.java" />
-        <option value="$PROJECT_DIR$/src/main/java/crawler/PagesCrawler.java" />
-        <option value="$PROJECT_DIR$/src/main/java/crawler/Crawler.java" />
-        <option value="$PROJECT_DIR$/src/main/java/interfaces/ICrawler.java" />
-        <option value="$PROJECT_DIR$/src/test/java/crawler/CrawlerTest.java" />
         <option value="$PROJECT_DIR$/CrawlerService/src/service/resources/service/resources/CrawlerService.java" />
         <option value="$PROJECT_DIR$/src/main/java/managers/DataItem.java" />
+        <option value="$PROJECT_DIR$/src/main/java/interfaces/ICrawler.java" />
+        <option value="$PROJECT_DIR$/src/test/java/crawler/CrawlerTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/managers/Statistics.java" />
+        <option value="$PROJECT_DIR$/src/main/java/crawler/PagesCrawler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/interfaces/ISerializer.java" />
+        <option value="$PROJECT_DIR$/src/test/java/CrawlerServiceTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/managers/Serializer.java" />
         <option value="$PROJECT_DIR$/build.gradle" />
+        <option value="$PROJECT_DIR$/CrawlerService/web/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/crawler/Crawler.java" />
         <option value="$PROJECT_DIR$/CrawlerService/src/service/resources/CrawlerService.java" />
       </list>
     </option>
@@ -644,22 +526,38 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="width" value="1440" />
-    <option name="height" value="900" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="width" value="1920" />
+    <option name="height" value="1080" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
-    <navigator proportions="" version="1">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -670,20 +568,33 @@
             <path>
               <item name="TCI_Project_1.0" type="b2602c69:ProjectViewProjectNode" />
               <item name="TCI_Project_1.0" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="CrawlerService" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="CrawlerService" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="TCI_Project_1.0" type="b2602c69:ProjectViewProjectNode" />
               <item name="TCI_Project_1.0" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="CrawlerService" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="CrawlerService" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="TCI_Project_1.0" type="b2602c69:ProjectViewProjectNode" />
               <item name="TCI_Project_1.0" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="CrawlerService" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="CrawlerService" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TCI_Project_1.0" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TCI_Project_1.0" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="CrawlerService" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TCI_Project_1.0" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TCI_Project_1.0" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="CrawlerService" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="TCI_Project_1.0" type="b2602c69:ProjectViewProjectNode" />
@@ -715,14 +626,39 @@
               <item name="TCI_Project_1.0" type="b2602c69:ProjectViewProjectNode" />
               <item name="TCI_Project_1.0" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="interfaces" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TCI_Project_1.0" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TCI_Project_1.0" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="managers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TCI_Project_1.0" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TCI_Project_1.0" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="TCI_Project_1.0" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TCI_Project_1.0" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
       <pane id="PackagesPane" />
+      <pane id="Scratches" />
+      <pane id="AndroidView" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -731,7 +667,7 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/CrawlerService/src/service/resources" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/lib/yasson-1.0.jar!/" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15527344" />
@@ -763,21 +699,94 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.CrawlerTest.setUp">
+  <component name="RunManager" selected="Tomcat Server.rest">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="WIDTH" value="0" />
+      <option name="HEIGHT" value="0" />
+      <module />
     </configuration>
-    <configuration default="true" type="Application" factoryName="Application">
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-    </configuration>
-    <configuration name="CrawlerTest.crawerGetAllItems" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="TCI_Project_1.0_test" />
-      <extension name="coverage">
+    <configuration name="Crawler" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="crawler.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="MAIN_CLASS_NAME" value="crawler.Crawler" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="TCI_Project_1.0_main" />
+      <envs />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+    </configuration>
+    <configuration name="CrawlerServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="TCI_Project_1.0_test" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="CrawlerServiceTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="CrawlerServiceTest.crawlerMethodForSingleItemIsCalledOnlyOnce" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="TCI_Project_1.0_test" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="CrawlerServiceTest" />
+      <option name="METHOD_NAME" value="crawlerMethodForSingleItemIsCalledOnlyOnce" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="CrawlerTest.crawerGetAllItems" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="crawler.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="TCI_Project_1.0_test" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="crawler" />
@@ -787,20 +796,22 @@
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="TEST_SEARCH_SCOPE">
         <value defaultName="singleModule" />
       </option>
+      <envs />
       <patterns />
     </configuration>
     <configuration name="CrawlerTest.setUp" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="TCI_Project_1.0_test" />
-      <extension name="coverage">
+      <extension name="coverage" enabled="false" merge="false" runner="idea">
         <pattern>
           <option name="PATTERN" value="crawler.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <module name="TCI_Project_1.0_test" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="crawler" />
@@ -810,82 +821,17 @@
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="TEST_SEARCH_SCOPE">
         <value defaultName="singleModule" />
       </option>
-      <patterns />
-    </configuration>
-    <configuration name="CrawlerTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="TCI_Project_1.0_test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="crawler.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="crawler" />
-      <option name="MAIN_CLASS_NAME" value="crawler.CrawlerTest" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="PagesCrawlerTest.testConnectionIsSuccessful" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="TCI_Project_1.0_test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="crawler.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="crawler" />
-      <option name="MAIN_CLASS_NAME" value="crawler.PagesCrawlerTest" />
-      <option name="METHOD_NAME" value="testConnectionIsSuccessful" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="PagesCrawlerTest.testCreationOnCrawlerPages" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="TCI_Project_1.0_test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="crawler.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="crawler" />
-      <option name="MAIN_CLASS_NAME" value="crawler.PagesCrawlerTest" />
-      <option name="METHOD_NAME" value="testCreationOnCrawlerPages" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
+      <envs />
       <patterns />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" />
@@ -895,13 +841,17 @@
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="TEST_SEARCH_SCOPE">
         <value defaultName="singleModule" />
       </option>
+      <envs />
       <patterns />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="SUITE_NAME" />
@@ -914,31 +864,110 @@
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="TEST_SEARCH_SCOPE">
         <value defaultName="singleModule" />
       </option>
       <option name="USE_DEFAULT_REPORTERS" value="false" />
       <option name="PROPERTIES_FILE" />
+      <envs />
       <properties />
       <listeners />
     </configuration>
-    <list>
-      <item itemvalue="JUnit.PagesCrawlerTest.testConnectionIsSuccessful" />
-      <item itemvalue="JUnit.PagesCrawlerTest.testCreationOnCrawlerPages" />
-      <item itemvalue="JUnit.CrawlerTest.test" />
-      <item itemvalue="JUnit.CrawlerTest.crawerGetAllItems" />
-      <item itemvalue="JUnit.CrawlerTest.setUp" />
+    <configuration name="rest" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.5" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="CrawlerService:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_TCI_Project_1_0_2" />
+      </server-settings>
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="3910" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method>
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="CrawlerService:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <list size="6">
+      <item index="0" class="java.lang.String" itemvalue="Tomcat Server.rest" />
+      <item index="1" class="java.lang.String" itemvalue="Application.Crawler" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.CrawlerTest.crawerGetAllItems" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.CrawlerTest.setUp" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.CrawlerServiceTest.crawlerMethodForSingleItemIsCalledOnlyOnce" />
+      <item index="5" class="java.lang.String" itemvalue="JUnit.CrawlerServiceTest" />
     </list>
     <recent_temporary>
-      <list>
-        <item itemvalue="JUnit.CrawlerTest.setUp" />
-        <item itemvalue="JUnit.CrawlerTest.crawerGetAllItems" />
-        <item itemvalue="JUnit.CrawlerTest.test" />
-        <item itemvalue="JUnit.PagesCrawlerTest.testCreationOnCrawlerPages" />
-        <item itemvalue="JUnit.PagesCrawlerTest.testConnectionIsSuccessful" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Application.Crawler" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.CrawlerServiceTest" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.CrawlerServiceTest.crawlerMethodForSingleItemIsCalledOnlyOnce" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.CrawlerTest.setUp" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.CrawlerTest.crawerGetAllItems" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -955,24 +984,21 @@
       <workItem from="1529186291155" duration="246000" />
       <workItem from="1529229999029" duration="561000" />
       <workItem from="1529242826425" duration="563000" />
+      <workItem from="1529243556594" duration="7011000" />
+      <workItem from="1529251312525" duration="64000" />
+      <workItem from="1529251848505" duration="892000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="CrawlerTest_test - 2018.06.14 at 17h 27m 41s.xml">
-      <configuration name="CrawlerTest.test" configurationId="JUnit" />
+    <history-entry file="CrawlerServiceTest - 2018.06.17 at 17h 23m 42s.xml">
+      <configuration name="CrawlerServiceTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CrawlerTest_test - 2018.06.14 at 17h 30m 10s.xml">
-      <configuration name="CrawlerTest.test" configurationId="JUnit" />
+    <history-entry file="CrawlerServiceTest - 2018.06.17 at 17h 31m 36s.xml">
+      <configuration name="CrawlerServiceTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CrawlerTest_test - 2018.06.14 at 17h 30m 22s.xml">
-      <configuration name="CrawlerTest.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CrawlerTest_test - 2018.06.14 at 17h 50m 18s.xml">
-      <configuration name="CrawlerTest.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CrawlerTest_test - 2018.06.14 at 17h 51m 47s.xml">
-      <configuration name="CrawlerTest.test" configurationId="JUnit" />
+    <history-entry file="CrawlerServiceTest - 2018.06.17 at 17h 47m 37s.xml">
+      <configuration name="CrawlerServiceTest" configurationId="JUnit" />
     </history-entry>
     <history-entry file="CrawlerTest_crawerGetAllItems - 2018.06.17 at 01h 04m 03s.xml">
       <configuration name="CrawlerTest.crawerGetAllItems" configurationId="JUnit" />
@@ -989,48 +1015,56 @@
     <history-entry file="CrawlerTest_setUp - 2018.06.17 at 12h 14m 54s.xml">
       <configuration name="CrawlerTest.setUp" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="CrawlerTest_test - 2018.06.14 at 17h 50m 18s.xml">
+      <configuration name="CrawlerTest.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CrawlerTest_test - 2018.06.14 at 17h 51m 47s.xml">
+      <configuration name="CrawlerTest.test" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18059000" />
+    <option name="totallyTimeSpent" value="26026000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette&#9;" order="3" />
-      <window_info id="Image Layers" order="2" />
-      <window_info anchor="bottom" id="Java Enterprise" order="7" />
-      <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="7" weight="0.17173913" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32969698" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.3272727" />
-      <window_info id="Capture Tool" order="2" />
-      <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16881259" />
-      <window_info anchor="bottom" id="Build" order="7" visible="true" weight="0.32969698" />
-      <window_info anchor="right" id="Database" order="3" />
-      <window_info anchor="right" id="Gradle" order="3" weight="0.3297568" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info id="UI Designer" order="2" />
-      <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="right" id="Bean Validation" order="3" />
-      <window_info anchor="bottom" id="Messages" order="7" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="right" id="CDI" order="3" />
-      <window_info id="Web" order="2" side_tool="true" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.16847827" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.009782609" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17173913" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.48369566" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3272727" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16044776" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297568" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Database Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1039,30 +1073,29 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Full application implemented." />
+    <option name="LAST_COMMIT_MESSAGE" value="Full application implemented." />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="12" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/crawler/Crawler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/BookTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="7" lean-forward="true" selection-start-column="7" selection-end-column="7" />
+        <state relative-caret-position="0">
+          <caret line="0" column="7" lean-forward="true" selection-start-line="0" selection-start-column="7" selection-end-line="0" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/CrawlerServiceTest.java" />
     <entry file="file://$PROJECT_DIR$/src/test/java/MusicTest.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/crawler/Crawler.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="405">
-          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+          <caret line="27" column="0" lean-forward="true" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1072,31 +1105,28 @@
     <entry file="file://$PROJECT_DIR$/src/test/java/BookTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="525">
-          <caret line="43" column="95" selection-start-line="43" selection-start-column="95" selection-end-line="43" selection-end-column="95" />
+          <caret line="43" column="95" lean-forward="false" selection-start-line="43" selection-start-column="95" selection-end-line="43" selection-end-column="95" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/BookAssert.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="675">
-          <caret line="51" column="30" selection-start-line="51" selection-start-column="30" selection-end-line="51" selection-end-column="30" />
+          <caret line="51" column="30" lean-forward="false" selection-start-line="51" selection-start-column="30" selection-end-line="51" selection-end-column="30" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/items/Book.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
-          <caret line="3" column="25" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
+          <caret line="3" column="25" lean-forward="false" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/BookTest.java">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/BookAssert.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="765">
-          <caret line="51" column="30" selection-start-line="51" selection-start-column="30" selection-end-line="51" selection-end-column="30" />
+          <caret line="51" column="30" lean-forward="false" selection-start-line="51" selection-start-column="30" selection-end-line="51" selection-end-column="30" />
         </state>
       </provider>
     </entry>
@@ -1106,9 +1136,6 @@
           <caret line="3" column="25" lean-forward="true" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CrawlerService/web/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/items/Movie.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -1120,64 +1147,32 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/items/Music.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
-          <caret line="5" column="71" selection-start-line="5" selection-start-column="71" selection-end-line="5" selection-end-column="71" />
+          <caret line="5" column="71" lean-forward="false" selection-start-line="5" selection-start-column="71" selection-end-line="5" selection-end-column="71" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/managers/Serializer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
-          <caret line="10" column="8" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="20" />
+          <caret line="10" column="8" lean-forward="false" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="20" />
           <folding>
-            <element signature="imports" />
-            <element signature="e#220#221#0" />
-            <element signature="e#247#248#0" />
-            <element signature="e#304#305#0" />
-            <element signature="e#331#332#0" />
-            <element signature="e#402#403#0" />
-            <element signature="e#429#430#0" />
+            <element signature="e#402#403#0" expanded="false" />
+            <element signature="e#429#430#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/managers/Statistics.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-          <folding>
-            <element signature="imports" />
-            <element signature="e#196#197#0" />
-            <element signature="e#241#242#0" />
-            <element signature="e#370#371#0" />
-            <element signature="e#397#398#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/interfaces/IStatistics.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="33" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/managers/Statistics.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/interfaces/IStatistics.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/interfaces/ISerializer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-          <folding>
-            <element signature="imports" />
-          </folding>
+          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CrawlerService/src/service/resources/CrawlerService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/CrawlerService/src/service/resources/CrawlerService.java" />
     <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -1188,62 +1183,59 @@
     <entry file="file://$PROJECT_DIR$/src/test/java/BookTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="595">
-          <caret line="43" column="95" selection-start-line="43" selection-start-column="95" selection-end-line="43" selection-end-column="95" />
+          <caret line="43" column="95" lean-forward="false" selection-start-line="43" selection-start-column="95" selection-end-line="43" selection-end-column="95" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/BookAssert.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="675">
-          <caret line="51" column="30" selection-start-line="51" selection-start-column="30" selection-end-line="51" selection-end-column="30" />
+          <caret line="51" column="30" lean-forward="false" selection-start-line="51" selection-start-column="30" selection-end-line="51" selection-end-column="30" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/managers/DataItem.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/items/Item.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
-          <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+          <caret line="2" column="22" lean-forward="false" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/interfaces/ICrawler.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
-          <caret line="7" column="28" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="28" />
+          <caret line="7" column="28" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="28" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/items/Book.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
-          <caret line="8" column="113" selection-start-line="8" selection-start-column="15" selection-end-line="8" selection-end-column="113" />
+          <caret line="8" column="113" lean-forward="false" selection-start-line="8" selection-start-column="15" selection-end-line="8" selection-end-column="113" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/crawler/PagesCrawler.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="430">
-          <caret line="100" column="49" selection-start-line="100" selection-start-column="49" selection-end-line="100" selection-end-column="49" />
+          <caret line="100" column="49" lean-forward="false" selection-start-line="100" selection-start-column="49" selection-end-line="100" selection-end-column="49" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/BookTest.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/BookAssert.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="765">
-          <caret line="51" column="30" selection-start-line="51" selection-start-column="30" selection-end-line="51" selection-end-column="30" />
+          <caret line="51" column="30" lean-forward="false" selection-start-line="51" selection-start-column="30" selection-end-line="51" selection-end-column="30" />
         </state>
       </provider>
     </entry>
@@ -1253,9 +1245,6 @@
           <caret line="3" column="25" lean-forward="true" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CrawlerService/web/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/items/Item.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -1274,144 +1263,173 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/items/Music.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
-          <caret line="5" column="71" selection-start-line="5" selection-start-column="71" selection-end-line="5" selection-end-column="71" />
+          <caret line="5" column="71" lean-forward="false" selection-start-line="5" selection-start-column="71" selection-end-line="5" selection-end-column="71" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/managers/Serializer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="8" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="20" />
-          <folding>
-            <element signature="imports" />
-            <element signature="e#220#221#0" />
-            <element signature="e#247#248#0" />
-            <element signature="e#304#305#0" />
-            <element signature="e#331#332#0" />
-            <element signature="e#402#403#0" />
-            <element signature="e#429#430#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/managers/Statistics.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-          <folding>
-            <element signature="imports" />
-            <element signature="e#196#197#0" />
-            <element signature="e#241#242#0" />
-            <element signature="e#370#371#0" />
-            <element signature="e#397#398#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/interfaces/IStatistics.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="33" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/BookAssert.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="765">
-          <caret line="51" column="30" selection-start-line="51" selection-start-column="30" selection-end-line="51" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/interfaces/IStatistics.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/items/Book.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
-          <caret line="3" column="25" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/BookTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="158">
-          <caret line="43" column="95" selection-start-line="43" selection-start-column="95" selection-end-line="43" selection-end-column="95" />
+          <caret line="3" column="25" lean-forward="false" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/crawler/PageCrawlerTest.java" />
     <entry file="file://$PROJECT_DIR$/src/test/java/crawler/PagesCrawlerTest.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/interfaces/ISerializer.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/BookAssert.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        <state relative-caret-position="619">
+          <caret line="51" column="30" lean-forward="false" selection-start-line="51" selection-start-column="30" selection-end-line="51" selection-end-column="30" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/crawler/PagesCrawler.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/BookTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="362">
+          <caret line="43" column="95" lean-forward="false" selection-start-line="43" selection-start-column="95" selection-end-line="43" selection-end-column="95" />
+          <folding />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/CrawlerService/web/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/StatisticsTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/managers/Statistics.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/crawler/PageCrawler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="376">
+        <state relative-caret-position="408">
           <caret line="31" column="9" lean-forward="true" selection-start-line="31" selection-start-column="9" selection-end-line="31" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/crawler/CrawlerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="19" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/crawler/Crawler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="89" column="23" selection-start-line="89" selection-start-column="23" selection-end-line="89" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/managers/DataItem.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="19" column="15" selection-start-line="19" selection-start-column="15" selection-end-line="19" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        <state relative-caret-position="289">
+          <caret line="19" column="15" lean-forward="false" selection-start-line="19" selection-start-column="15" selection-end-line="19" selection-end-column="15" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/interfaces/ICrawler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="10" column="27" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="27" />
+        <state relative-caret-position="136">
+          <caret line="11" column="1" lean-forward="false" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/interfaces/ISerializer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="10" column="35" lean-forward="false" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/crawler/CrawlerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="35" lean-forward="true" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/jersey-server.jar!/org/glassfish/jersey/server/model/ResourceMethodInvoker.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="246">
+          <caret line="281" column="0" lean-forward="false" selection-start-line="281" selection-start-column="0" selection-end-line="281" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/jersey-server.jar!/org/glassfish/jersey/server/model/internal/AbstractJavaResourceMethodDispatcher.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="50" column="0" lean-forward="false" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/crawler/PagesCrawler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-170">
+          <caret line="14" column="6" lean-forward="false" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/managers/Serializer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="14" column="32" lean-forward="false" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
+          <folding>
+            <element signature="e#402#403#0" expanded="false" />
+            <element signature="e#429#430#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="53" lean-forward="false" selection-start-line="16" selection-start-column="53" selection-end-line="16" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/CrawlerServiceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="393">
+          <caret line="64" column="49" lean-forward="false" selection-start-line="64" selection-start-column="49" selection-end-line="64" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="method#crawlerMethodForSingleItemIsCalledOnlyOnce#0;class#CrawlerServiceTest#0" expanded="false" />
+            <element signature="method#getStatsThrowsExceptionIfResultIsNull#0;class#CrawlerServiceTest#0" expanded="false" />
+            <element signature="method#getStatsThrowsExceptionIfResultIsEmpty#0;class#CrawlerServiceTest#0" expanded="false" />
+            <element signature="method#getStatisticsThrowsIllegalArgumentException#0;class#CrawlerServiceTest#0" expanded="false" />
+            <element signature="method#getStatsReturnsProperResult#0;class#CrawlerServiceTest#0" expanded="false" />
+            <element signature="method#getStatsReturnsProperResultWithParams#0;class#CrawlerServiceTest#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CrawlerService/web/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="10" lean-forward="false" selection-start-line="21" selection-start-column="10" selection-end-line="21" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/crawler/Crawler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="36" column="0" lean-forward="false" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/CrawlerService/src/service/resources/CrawlerService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-333">
-          <caret line="15" column="35" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
+        <state relative-caret-position="1394">
+          <caret line="82" column="28" lean-forward="true" selection-start-line="82" selection-start-column="28" selection-end-line="82" selection-end-column="28" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#419#420#0" expanded="true" />
+            <element signature="e#457#458#0" expanded="true" />
+            <element signature="e#514#515#0" expanded="true" />
+            <element signature="e#558#559#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1422,11 +1440,12 @@
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
           <artifact-editor />
-          <last-edited />
+          <last-edited>CrawlerService:war exploded</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.35827664" />
+                <option value="0.5" />
               </list>
             </option>
           </splitter-proportions>
@@ -1434,11 +1453,11 @@
       </state>
       <state key="FacetStructureConfigurable.UI">
         <settings>
-          <last-edited />
+          <last-edited>Web</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.35827664" />
               </list>
             </option>
           </splitter-proportions>
@@ -1446,7 +1465,7 @@
       </state>
       <state key="GlobalLibrariesConfigurable.UI">
         <settings>
-          <last-edited />
+          <last-edited>Maven: com.github.igdb:api-java:2.0.0</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1470,12 +1489,11 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>CrawlerService</last-edited>
+          <last-edited>CrawlerService|TCI_Project_1.0</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.35827664" />
-                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
@@ -1495,7 +1513,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited />
+          <last-edited>aopalliance-repackaged-2.5.0-b42</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

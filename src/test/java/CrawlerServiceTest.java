@@ -11,6 +11,8 @@ import service.resources.CrawlerService;
 import javax.ws.rs.InternalServerErrorException;
 import javax.ws.rs.core.Response;
 
+import java.io.IOException;
+
 import static junitparams.JUnitParamsRunner.$;
 import static org.mockito.Mockito.*;
 
@@ -58,11 +60,13 @@ public class CrawlerServiceTest {
         //Arrange for most tests
         crawler = mock(ICrawler.class);
         serializer = mock(ISerializer.class);
-        crawlerService = new CrawlerService(crawler, serializer);
+        crawlerService = new CrawlerService();
+        crawlerService.setCrawler(crawler);
+        crawlerService.setSerializer(serializer);
     }
 
     @Test
-    public void crawlerMethodForAllIsCalledOnlyOnce(){
+    public void crawlerMethodForAllIsCalledOnlyOnce() throws IOException {
         //arrange
         when(serializer.listOfItemToJson(crawler.getAllItems())).thenReturn(VALID_VALUE_STRING);
         //act
@@ -72,7 +76,7 @@ public class CrawlerServiceTest {
     }
 
     @Test
-    public void serializerListToJsonIsCalledOnce(){
+    public void serializerListToJsonIsCalledOnce() throws IOException {
         //arrange
         when(serializer.listOfItemToJson(crawler.getAllItems())).thenReturn(VALID_VALUE_STRING);
         //act
@@ -82,7 +86,7 @@ public class CrawlerServiceTest {
     }
 
     @Test(expected = InternalServerErrorException.class)
-    public void serviceGetAllThrowsExceptionWhenResultIsNull(){
+    public void serviceGetAllThrowsExceptionWhenResultIsNull() throws IOException {
         //arrange
         when(serializer.listOfItemToJson(crawler.getAllItems())).thenReturn(NULL_VALUE__STRING);
         //act
@@ -90,7 +94,7 @@ public class CrawlerServiceTest {
     }
 
     @Test(expected = InternalServerErrorException.class)
-    public void serviceGetAllThrowsExceptionWhenResultIsEmptyString(){
+    public void serviceGetAllThrowsExceptionWhenResultIsEmptyString() throws IOException {
         //arrange
         when(serializer.listOfItemToJson(crawler.getAllItems())).thenReturn(EMPTY_VALUE__STRING);
         //act
@@ -98,7 +102,7 @@ public class CrawlerServiceTest {
     }
 
     @Test
-    public void getAllReturnsProperResult(){
+    public void getAllReturnsProperResult() throws IOException {
         //arrange
         when(serializer.listOfItemToJson(crawler.getAllItems())).thenReturn(VALID_VALUE_STRING);
         Response result;
@@ -110,7 +114,7 @@ public class CrawlerServiceTest {
 
     @Test
     @Parameters(method = "getAllOutputs")
-    public void getAllReturnsProperResultWithParams(String expectedOutput){
+    public void getAllReturnsProperResultWithParams(String expectedOutput) throws IOException {
         //arrange
         when(serializer.listOfItemToJson(crawler.getAllItems())).thenReturn(expectedOutput);
         Response result;
@@ -125,7 +129,7 @@ public class CrawlerServiceTest {
      **/
 
     @Test
-    public void getStatisticsIsCalledOnlyOnce(){
+    public void getStatisticsIsCalledOnlyOnce() throws IOException {
         //arrange
         when(serializer.itemToJson(crawler.getSpecificItem(VALID_SEARCH_VALUE))).thenReturn(VALID_SPECIFIC_RESULT);
         //act
@@ -135,7 +139,7 @@ public class CrawlerServiceTest {
     }
 
     @Test
-    public void serializerGetSingleItemIsCalledOnce(){
+    public void serializerGetSingleItemIsCalledOnce() throws IOException {
         //arrange
         when(serializer.itemToJson(crawler.getSpecificItem(VALID_SEARCH_VALUE))).thenReturn(VALID_SPECIFIC_RESULT);
         //act
@@ -145,7 +149,7 @@ public class CrawlerServiceTest {
     }
 
     @Test(expected = InternalServerErrorException.class)
-    public void serviceGetSpecificItemThrowsExceptionWhenResultIsNull(){
+    public void serviceGetSpecificItemThrowsExceptionWhenResultIsNull() throws IOException {
         //arrange
         when(serializer.itemToJson(crawler.getSpecificItem(VALID_SEARCH_VALUE))).thenReturn(NULL_VALUE__STRING);
         //act
@@ -153,7 +157,7 @@ public class CrawlerServiceTest {
     }
 
     @Test(expected = InternalServerErrorException.class)
-    public void serviceGetSpecificItemThrowsExceptionWhenResultIsEmptyString(){
+    public void serviceGetSpecificItemThrowsExceptionWhenResultIsEmptyString() throws IOException {
         //arrange
         when(serializer.itemToJson(crawler.getSpecificItem(VALID_SEARCH_VALUE))).thenReturn(EMPTY_VALUE__STRING);
         //act
@@ -161,19 +165,19 @@ public class CrawlerServiceTest {
     }
 
     @Test(expected = InternalServerErrorException.class)
-    public void serviceGetSingleItemThrowsExceptionWhenInputIsNull(){
+    public void serviceGetSingleItemThrowsExceptionWhenInputIsNull() throws IOException {
         //act
         crawlerService.getItem(NULL_VALUE__STRING);
     }
 
     @Test(expected = InternalServerErrorException.class)
-    public void serviceGetSingleItemThrowsExceptionWhenInputIsEmpty(){
+    public void serviceGetSingleItemThrowsExceptionWhenInputIsEmpty() throws IOException {
         //act
         crawlerService.getItem(EMPTY_VALUE__STRING);
     }
 
     @Test
-    public void getSpecificItemReturnsProperResult(){
+    public void getSpecificItemReturnsProperResult() throws IOException {
         //arrange
         when(serializer.itemToJson(crawler.getSpecificItem(VALID_SEARCH_VALUE))).thenReturn(VALID_SPECIFIC_RESULT);
         Response result;
@@ -185,7 +189,7 @@ public class CrawlerServiceTest {
 
     @Test
     @Parameters(method = "getSpecificOutputs")
-    public void getSpecificReturnsProperResultWithParams(String input, String expectedOutput){
+    public void getSpecificReturnsProperResultWithParams(String input, String expectedOutput) throws IOException {
         //arrange
         when(serializer.itemToJson(crawler.getSpecificItem(input))).thenReturn(expectedOutput);
         Response result;
@@ -202,27 +206,17 @@ public class CrawlerServiceTest {
     @Test
     public void crawlerMethodForSingleItemIsCalledOnlyOnce(){
         //arrange
-        when(serializer.statisticsToJson(crawler.getStatisticsInformation(VALID_ID))).thenReturn(VALID_STATISTICS_OUTPUT);
+        when(crawler.getSearchDetails(VALID_ID)).thenReturn(VALID_STATISTICS_OUTPUT);
         //act
         crawlerService.getStatistics(VALID_ID);
         //assert
-        verify(crawler, times(2)).getStatisticsInformation(VALID_ID);//Times is to because of the when call
-    }
-
-    @Test
-    public void serializerGetStatsIsCalledOnce(){
-        //arrange
-        when(serializer.statisticsToJson(crawler.getStatisticsInformation(VALID_ID))).thenReturn(VALID_STATISTICS_OUTPUT);
-        //act
-        crawlerService.getStatistics(VALID_ID);
-        //assert
-        verify(serializer).statisticsToJson(crawler.getStatisticsInformation(VALID_ID));
+        verify(crawler, times(1)).getSearchDetails(VALID_ID);//Times is to because of the when call
     }
 
     @Test(expected = InternalServerErrorException.class)
     public void getStatsThrowsExceptionIfResultIsNull(){
         //arrange
-        when(serializer.statisticsToJson(crawler.getStatisticsInformation(VALID_ID))).thenReturn(NULL_VALUE__STRING);
+        when(crawler.getSearchDetails(VALID_ID)).thenReturn(NULL_VALUE__STRING);
         //act
         crawlerService.getStatistics(VALID_ID);
     }
@@ -230,7 +224,7 @@ public class CrawlerServiceTest {
     @Test(expected = InternalServerErrorException.class)
     public void getStatsThrowsExceptionIfResultIsEmpty(){
         //arrange
-        when(serializer.statisticsToJson(crawler.getStatisticsInformation(VALID_ID))).thenReturn(EMPTY_VALUE__STRING);
+        when(crawler.getSearchDetails(VALID_ID)).thenReturn(EMPTY_VALUE__STRING);
         //act
         crawlerService.getStatistics(VALID_ID);
     }
@@ -241,11 +235,10 @@ public class CrawlerServiceTest {
         crawlerService.getStatistics(INVALID_ID);
     }
 
-
     @Test
     public void getStatsReturnsProperResult(){
         //arrange
-        when(serializer.statisticsToJson(crawler.getStatisticsInformation(VALID_ID))).thenReturn(VALID_STATISTICS_OUTPUT);
+        when(crawler.getSearchDetails(VALID_ID)).thenReturn(VALID_STATISTICS_OUTPUT);
         Response result;
         //act
         result = crawlerService.getStatistics(VALID_ID);
@@ -257,7 +250,7 @@ public class CrawlerServiceTest {
     @Parameters(method = "getStatisticsParams")
     public void getStatsReturnsProperResultWithParams(int input, String expectedOutput){
         //arrange
-        when(serializer.statisticsToJson(crawler.getStatisticsInformation(input))).thenReturn(expectedOutput);
+        when(crawler.getSearchDetails(input)).thenReturn(expectedOutput);
         Response result;
         //act
         result = crawlerService.getStatistics(input);

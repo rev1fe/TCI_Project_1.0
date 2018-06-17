@@ -1,14 +1,11 @@
 package crawler;
 
-import interfaces.ICrawler;
-import managers.DataItem;
-import managers.Statistics;
+
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
 
-import javax.print.Doc;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.LinkedList;

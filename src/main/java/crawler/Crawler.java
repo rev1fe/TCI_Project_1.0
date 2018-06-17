@@ -1,11 +1,10 @@
 package crawler;
 
+import com.google.gson.Gson;
 import interfaces.ICrawler;
 import managers.DataItem;
 
 import java.io.IOException;
-import java.net.InetSocketAddress;
-import java.net.Socket;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -16,20 +15,26 @@ public class Crawler implements ICrawler {
     private PageCrawler pageCrawler;
 
     private int searchId;
-    private int searchDepth;
+    private int searchDepth = 0;
     private int pages = 0;
     private long executionDuration;
+    private Gson gson;
 
 
     private List<String> allItems;
 
+    static private List<DataItem> searchDetailsList = new ArrayList<>();
+
     public Crawler(String baseUrl) {
-        this.baseUrl = "http://localhost:8888";
+        this.baseUrl = "http://localhost:81/testsite/";
+
+        this.gson = new Gson();
 
         this.pagesCrawler = new PagesCrawler();
         this.pageCrawler = new PageCrawler();
 
         allItems = new ArrayList<>();
+
     }
 
     @Override
@@ -63,6 +68,8 @@ public class Crawler implements ICrawler {
         // Calculate execution time
         executionDuration = (endTime - startTime);
 
+        createSearchDetail(this.searchId, executionDuration, this.pages, this.searchDepth);
+
         return allItems;
     }
 
@@ -81,12 +88,19 @@ public class Crawler implements ICrawler {
         // Calculate execution time
         executionDuration = (endTime - startTime);
 
+        createSearchDetail(this.searchId, executionDuration, this.pages, this.searchDepth);
+
         return result;
 
     }
 
+    private void createSearchDetail(int searchId, long executionDuration, int pages, int searchDepth) {
+        DataItem dataItem = new DataItem(searchId, executionDuration, pages, searchDepth);
+        searchDetailsList.add(dataItem);
+    }
+
     @Override
-    public String getSearchDetails() {
-        return new DataItem(searchId, executionDuration, pages, searchDepth).toString();
+    public String getSearchDetails(int id) {
+        return gson.toJson(searchDetailsList.get(id));
     }
 }

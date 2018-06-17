@@ -1,5 +1,6 @@
 package managers;
 
+import com.google.gson.Gson;
 import interfaces.ISerializer;
 import items.Item;
 
@@ -10,16 +11,13 @@ public class Serializer implements ISerializer {
 
     @Override
     public String listOfItemToJson(List<String> items) {
-        return null;
+        Gson gson = new Gson();
+        return gson.toJson(items);
     }
 
     @Override
     public String itemToJson(String item) {
-        return null;
+        return item;
     }
 
-    @Override
-    public String statisticsToJson(DataItem dataItem) {
-        return null;
-    }
 }
