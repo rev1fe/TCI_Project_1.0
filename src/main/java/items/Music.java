@@ -7,4 +7,8 @@ public class Music extends Item{
         super(name, format, year);
         this.artist = artist;
     }
+
+    public String getArtist() {
+        return artist;
+    }
 }

@@ -7,6 +7,10 @@
         <element id="directory" name="classes">
           <element id="module-output" name="CrawlerService" />
         </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="aopalliance-repackaged-2.5.0-b42" />
+        </element>
+        <element id="file-copy" path="$PROJECT_DIR$/CrawlerService/web/WEB-INF/web.xml" />
       </element>
     </root>
   </artifact>
