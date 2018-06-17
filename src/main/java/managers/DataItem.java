@@ -2,11 +2,11 @@ package managers;
 
 public class DataItem {
     private int queryId;
-    private int timeElapsed;
+    private long timeElapsed;
     private int pagesExplored;
     private int searchDepth;
 
-    public DataItem(int queryId, int timeElapsed, int pagesExplored, int searchDepth) {
+    public DataItem(int queryId, long timeElapsed, int pagesExplored, int searchDepth) {
         this.queryId = queryId;
         this.timeElapsed = timeElapsed;
         this.pagesExplored = pagesExplored;
@@ -17,7 +17,7 @@ public class DataItem {
         return queryId;
     }
 
-    public int getTimeElapsed() {
+    public long getTimeElapsed() {
         return timeElapsed;
     }
 

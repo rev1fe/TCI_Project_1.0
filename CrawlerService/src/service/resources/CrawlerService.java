@@ -1,15 +1,15 @@
 package service.resources;
 
-import com.google.gson.Gson;
-import crawler.Crawler;
 import interfaces.ICrawler;
 import interfaces.ISerializer;
-import managers.Serializer;
 
 import javax.ws.rs.*;
 import javax.ws.rs.core.MediaType;
 import javax.ws.rs.core.Response;
-import java.util.ArrayList;
+
+import java.io.IOException;
+
+import static com.sun.xml.internal.ws.api.message.Packet.Status.Response;
 
 @Path("rest")
 public class CrawlerService {
@@ -26,7 +26,7 @@ public class CrawlerService {
     @GET
     @Path("all")
     @Produces({MediaType.APPLICATION_JSON})
-    public Response getAll(){
+    public Response getAll() throws IOException {
         String allItems = serializer.listOfItemToJson(crawler.getAllItems());
 
             if ( allItems == null|| allItems.equals("")) {
@@ -42,7 +42,7 @@ public class CrawlerService {
     @GET
     @Path("item")
     @Produces({MediaType.APPLICATION_JSON})
-    public Response getItem(@QueryParam("keyword") String keyword){
+    public Response getItem(@QueryParam("keyword") String keyword) throws IOException {
         if ( keyword == null|| keyword.equals("")) {
             throw new InternalServerErrorException();
         }
@@ -65,7 +65,7 @@ public class CrawlerService {
             throw new IllegalArgumentException();
         }
 
-        String stats = serializer.statisticsToJson(crawler.getStatisticsInformation(id));
+        String stats = serializer.statisticsToJson(crawler.getSearchDetails());
 
         if ( stats == null|| stats.equals("")) {
             throw new InternalServerErrorException();
