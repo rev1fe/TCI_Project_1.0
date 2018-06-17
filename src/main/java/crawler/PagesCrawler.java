@@ -15,7 +15,7 @@ import java.util.LinkedList;
 import java.util.List;
 import java.util.Queue;
 
-public class PagesCrawler {
+class PagesCrawler {
 
     private Queue<String> queue;
     private Queue<String> itemsQueue;

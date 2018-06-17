@@ -9,12 +9,11 @@ import java.io.IOException;
 import java.util.LinkedList;
 import java.util.Queue;
 
-public class PageCrawler {
+class PageCrawler {
 
-    public String getItemData(String url) throws IOException {
+    String getItemData(String url) throws IOException {
         Document doc = Jsoup.connect(url).get();
         StringBuilder result = new StringBuilder();
-
 
         String title = doc.select(".media-details h1").text();
         String itemId = url.substring(url.length() - 3);
