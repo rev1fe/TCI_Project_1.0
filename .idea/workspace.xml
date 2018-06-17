@@ -1366,7 +1366,7 @@
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
           <artifact-editor />
-          <last-edited>CrawlerService:war exploded</last-edited>
+          <last-edited />
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1391,7 +1391,7 @@
       </state>
       <state key="GlobalLibrariesConfigurable.UI">
         <settings>
-          <last-edited>Maven: com.github.igdb:api-java:2.0.0</last-edited>
+          <last-edited />
           <splitter-proportions>
             <option name="proportions">
               <list>

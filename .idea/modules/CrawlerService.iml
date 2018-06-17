@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module external.linked.project.id="CrawlerService" external.linked.project.path="$MODULE_DIR$/../../CrawlerService" external.root.project.path="$MODULE_DIR$/../../CrawlerService" external.system.id="GRADLE" external.system.module.group="" external.system.module.version="unspecified" type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/../../CrawlerService">
+      <sourceFolder url="file://$MODULE_DIR$/../../CrawlerService/src" isTestSource="false" />
+      <excludeFolder url="file://$MODULE_DIR$/../../CrawlerService/.gradle" />
+      <excludeFolder url="file://$MODULE_DIR$/../../CrawlerService/build" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module" module-name="TCI_Project_1.0_main" />
+    <orderEntry type="library" name="Gradle: javax.ws.rs:javax.ws.rs-api:2.0" level="project" />
+  </component>
+</module>

@@ -3,6 +3,7 @@ package crawler;
 import interfaces.ICrawler;
 import managers.DataItem;
 
+import javax.xml.crypto.Data;
 import java.io.IOException;
 import java.net.InetSocketAddress;
 import java.net.Socket;
@@ -16,12 +17,14 @@ public class Crawler implements ICrawler {
     private PageCrawler pageCrawler;
 
     private int searchId;
-    private int searchDepth;
+    private int searchDepth = 0;
     private int pages = 0;
     private long executionDuration;
 
 
     private List<String> allItems;
+
+    private List<DataItem> searchDetailsList;
 
     public Crawler(String baseUrl) {
         this.baseUrl = "http://localhost:8888";
@@ -30,6 +33,8 @@ public class Crawler implements ICrawler {
         this.pageCrawler = new PageCrawler();
 
         allItems = new ArrayList<>();
+
+        searchDetailsList = new ArrayList<>();
     }
 
     @Override
@@ -63,6 +68,8 @@ public class Crawler implements ICrawler {
         // Calculate execution time
         executionDuration = (endTime - startTime);
 
+        createSearchDetail(this.searchId, executionDuration, this.pages, this.searchDepth);
+
         return allItems;
     }
 
@@ -81,12 +88,19 @@ public class Crawler implements ICrawler {
         // Calculate execution time
         executionDuration = (endTime - startTime);
 
+        createSearchDetail(this.searchId, executionDuration, this.pages, this.searchDepth);
+
         return result;
 
     }
 
+    private void createSearchDetail(int searchId, long executionDuration, int pages, int searchDepth) {
+        DataItem dataItem = new DataItem(searchId, executionDuration, pages, searchDepth);
+        searchDetailsList.add(dataItem);
+    }
+
     @Override
-    public String getSearchDetails() {
-        return new DataItem(searchId, executionDuration, pages, searchDepth).toString();
+    public String getSearchDetails(int id) {
+        return searchDetailsList.get(id).toString();
     }
 }

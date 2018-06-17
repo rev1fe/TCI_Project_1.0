@@ -8,5 +8,5 @@ import java.util.List;
 public interface ICrawler {
     List<String> getAllItems() throws IOException;
     String getSpecificItem(String name) throws IOException;
-    String getSearchDetails();
+    String getSearchDetails(int id);
 }
